@@ -1,0 +1,1 @@
+CREATE TABLE venues(id INTEGER,name text ,url text,district text, adress text, img text );
