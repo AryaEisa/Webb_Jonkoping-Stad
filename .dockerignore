@@ -1,0 +1,4 @@
+node_modules
+
+#ignore file modules, just example
+# *.md
