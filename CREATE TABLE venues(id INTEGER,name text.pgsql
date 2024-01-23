@@ -5,3 +5,4 @@
 --'Ö. Storgatan 34, 550 21 Jönköping',
 --'https://www.ehandel.se/wp-content/uploads/2021/04/ahlens.jpg' );
 SELECT * FROM venues;
+--as
