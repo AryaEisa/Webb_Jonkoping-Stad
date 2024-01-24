@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
-
+const port = 3000
+const {Client} = require('pg')
 const stores = require('./stores.json')
 
 app.get('/', function (req, res) {
@@ -35,11 +36,11 @@ app.post('/',
     res.send('Store added!')
 })
 
-app.listen(3000, () => {
-  console.log('Server is running at port 3000')
+app.listen(port, () => {
+  console.log(`Server is running at port ${port}`)
 })
 //_______________________________________________________________________________________________________________
-const {Client} = require('pg')
+
 const client = new Client({
     host: "localhost",
     user: "postgres",
