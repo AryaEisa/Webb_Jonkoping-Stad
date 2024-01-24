@@ -38,5 +38,25 @@ app.post('/',
 app.listen(3000, () => {
   console.log('Server is running at port 3000')
 })
+//_______________________________________________________________________________________________________________
+const {Client} = require('pg')
+const client = new Client({
+    host: "localhost",
+    user: "postgres",
+    port: 5432,
+    password: "2233360Arman.",
+    database: "JUweb"
+})
 
+client.connect();
+
+client.query(`select * from venues`, (err, res)=>{
+    if(!err){
+        console.log(res.rows);
+    }else{
+        console.log(err.message);
+    }
+    client.end;
+})
+//__________________________________________________________________________________________________________
 
