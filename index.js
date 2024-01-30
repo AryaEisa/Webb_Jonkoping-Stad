@@ -3,6 +3,7 @@ const ModelClass = require('./model.js');
 const storeJson = require('./stores.json');
 const app = express()
 let Model = null;
+const port = 3000;
 
 app.get('/setup', async (req, res) => {
   await Model.setup(storeJson);
@@ -17,8 +18,8 @@ app.get('/', async (req, res) => {
 const startServer = async () => {
   Model = new ModelClass();
   await Model.init();
-  app.listen(3000, () => {
-    console.log('Example app listening on port 3000!');
+  app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`);
   });
 }
 
