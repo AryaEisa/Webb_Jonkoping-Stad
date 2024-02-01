@@ -1,40 +1,26 @@
 const express = require('express')
+const ModelClass = require('./model.js');
+const storeJson = require('./stores.json');
 const app = express()
+let Model = null;
+const port = 3000;
 
-const stores = require('./stores.json')
+app.get('/setup', async (req, res) => {
+  await Model.setup(storeJson);
+  res.json({success: true});
+});
 
-app.get('/', function (req, res) {
-  const { storename } = req.query
-  console.log(storename)
-  const index = stores.findIndex(store => store.name === storename)
-  if (index > -1) {
-    res.json(stores[index])
-  } else {
-    res.send('Store not found!')
-  }
+app.get('/', async (req, res) => {
+  const stores = await Model.getAllStores();
+  res.json(stores);
 })
 
-app.delete('/', function (req, res) {
-  const { storename } = req.query
-  console.log(storename)
-  const index = stores.findIndex(store => store.name === storename)
-  if (index > -1) {
-    stores.splice(index, 1)
-    res.send(`Store found! Deleting store with index: ${index}`)
-  } else {
-    res.send('Store not found!')
-  }
-})
+const startServer = async () => {
+  Model = new ModelClass();
+  await Model.init();
+  app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`);
+  });
+}
 
-app.post('/',
-  express.json(), // for parsing application/json body in POST
-  (req, res) => {
-    const { body } = req
-    console.log(body)
-    stores.push(body)
-    res.send('Store added!')
-})
-
-app.listen(3000, () => {
-  console.log('Server is running at port 3000')
-})
+startServer();

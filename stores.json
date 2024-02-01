@@ -2,62 +2,76 @@
     {
       "name": "Åhlens",
       "url": "ahlens.se/varuhus/jonkoping?utm_source=google&utm_medium=organic&utm_campaign=business_profile&utm_content=website_link",
-      "district": "Öster"
+      "district": "Öster",
+      "address": "Ö. Storgatan 34, 550 21 Jönköping",
+      "img": "https://www.ehandel.se/wp-content/uploads/2021/04/ahlens.jpg"
+      
     },
     {
       "name": "Akademibokhandeln",
       "url": "akademibokhandeln.se/butik/jonkoping-c",
-      "district": "Öster"
+      "district": "Öster",
+      "address": "Östra Storgatan 28A, 553 21 Jönköping",
+      "img": "https://bilder.akademibokhandeln.se/media/cache/2e/8a/2e8af736ca9ba9e45611cc19d1b7172e.jpg"
     },
     {
       "name": "Apoteket AB",
       "url": "apoteket.se/apotek/apoteket-ostra-storgatan-jonkoping/",
-      "district": null
+      "district": "Östra",
+      "address": "Östra Storgatan 21, 553 21 Jönköping",
+      "img": "https://static.bonniernews.se/bildix/api/images/342d48e5-f927-40b6-ac4e-f32157cb3f83.jpeg?fit=crop&w=1400&h=788"
+
     },
     {
       "name": "Apotek Hjärtat",
       "url": "apotekhjartat.se/hitta-apotek-hjartat/jonkoping/apotek_hjartat_smedjegatan_2_jonkoping/",
-      "district": null
+      "district": "Östra",
+      "address": "Smedjegatan 2, 553 20 Jönköping",
+      "img": "https://lh3.googleusercontent.com/p/AF1QipOEUqXncU-IX4uXyP0nXS9baKroaGdzjOWrQhak=s1360-w1360-h1020"
     },
-    {
-      "name": "Ashur Brud & Fest - Skrädderi",
-      "url": "facebook.com/AshuraitaBrudFest/",
-      "district": null
-    },
+    
     {
       "name": "Asia livs, servicebutik",
       "url": "facebook.com/profile.php?id=100051215441977",
-      "district": null
+      "district": "Väster",
+      "address": "Östra Storgatan 73, 553 21 Jönköping",
+      "img": "https://lh3.googleusercontent.com/p/AF1QipPkinca7AAw6HdqqZP-EHfU9yowk83qaibax34U=w1080-h608-p-no-v0"
     },
     {
       "name": "Ateljé Creativ i Jönköping/Finrummet",
       "url": "/finrummet.net",
-      "district": "Väster"
+      "district": "Väster",
+      "address": "Skolgatan 11, 553 61 Jönköping",
+      "img": "https://lh3.googleusercontent.com/p/AF1QipO5WyuJ_lqhVRuaDD4zdrR76ALWWefp-YCrgu9r=s1360-w1360-h1020"
     },
     {
       "name": "Ateljé KEG",
       "url": "ateljekeg.se",
-      "district": "Öster"
+      "district": "Öster",
+      "address": "Smedjegatan 28, 553 20 Jönköping",
+      "img": "https://lh3.googleusercontent.com/p/AF1QipMl8FrtsLy22YsuYy6qWVq0WVeiVDz2Sj1g83hu=s1360-w1360-h1020"
     },
     {
       "name": "Atlantis Dive College",
       "url": "atlantis.se",
-      "district": "Väster"
+      "district": "Väster",
+      "address": "Nygatan 10, 553 16 Jönköping",
+      "img": "https://lh3.googleusercontent.com/p/AF1QipMJbwkNcMBeFFQF9_DwUU1lulWUHRYvG4hLpsM=s1360-w1360-h1020"
     },
-    {
-      "name": "Bagelle väskboutique",
-      "url": null,
-      "district": null
-    },
+    
     {
       "name": "Balance Ljud och Bild",
       "url": "balance.se",
-      "district": null
+      "district": "Öster",
+      "address": "Tändsticksgränd 34, 553 15 Jönköping",
+      "img": "https://lh3.googleusercontent.com/p/AF1QipM94Wq4VEQEe0PirRcAniAZ8JOnkQH-4OYzDP-A=s1360-w1360-h1020"
     },
     {
       "name": "BGA Fotocenter",
       "url": "bgafotocenter.se/jonkoping/",
-      "district": "Öster"
+      "district": "Öster",
+      "address": "Smedjegatan 8, 553 20 Jönköping",
+      "img": "https://lh3.googleusercontent.com/p/AF1QipNUVHuunTNRfD71XhKh8IQ8RPa0vyyiuNjWNVbr=s1360-w1360-h1020"
     },
     {
       "name": "Bikupan",
