@@ -1,8 +1,10 @@
-const { Client } = require('pg');
+const { Pool } = require('pg');
 
-class Model {
+const stores = require('./stores.json');
+
+class ModelClass {
   constructor() {
-    this.client = new Client({
+    this.connection = new Pool({
       user: 'postgres',
       host: 'localhost',
       database: 'postgres',
@@ -11,52 +13,52 @@ class Model {
     });
   }
 
-  async init() {
-    await this.client.connect();
+  async connectDatabase() {
+    await this.connection.connect();
   }
 
-  async setup(storeJson) {
-    await this.client.query(`
-      CREATE TABLE IF NOT EXISTS public.stores
-      (
-          id SERIAL NOT NULL,
-          name text,
-          url text,
-          district text,
-          CONSTRAINT stores_pkey PRIMARY KEY (id)
-      );
+  async setupDatabase() {
+    await this.connection.query(`
+    CREATE TABLE IF NOT EXISTS public.stores
+    (
+        id SERIAL,
+        name text,
+        url text,
+        district text,
+        rating integer,
+        CONSTRAINT stores_pkey PRIMARY KEY (id)
+    )`);
+
+    await this.connection.query(`
+      ALTER TABLE IF EXISTS public.stores
+          OWNER to postgres
     `);
 
-    await this.client.query(`
-      ALTER TABLE IF EXISTS public.stores OWNER to postgres;
-    `);
 
-    for (const store of storeJson) {
-      const checkForStore = await this.client.query(`
-        SELECT * FROM public.stores
-        WHERE
-         name = $1
-        LIMIT 1
+    for (const store of stores) {
+
+      const { rows } = await this.connection.query(`
+        SELECT * FROM stores WHERE name = $1
       `, [store.name]);
 
-      console.log(checkForStore.rows);
-
-      if (checkForStore.rows.length === 0) {
-        await this.client.query(`
-          INSERT INTO public.stores (name, url, district)
+      if (rows.length === 0) {
+        console.log(`Inserting ${store.name}`);
+        await this.connection.query(`
+          INSERT INTO stores (name, url, district)
           VALUES ($1, $2, $3)
         `, [store.name, store.url, store.district]);
       }
     }
-
-
   }
 
-  async getAllStores() {
-    const res = await this.client.query('SELECT * FROM public.stores');
-    return res.rows;
+  async getStores() {
+    const { rows } = await this.connection.query(`
+      SELECT * FROM stores
+    `);
+    return rows;
   }
+
 
 }
 
-module.exports = Model;
+module.exports = ModelClass;

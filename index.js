@@ -1,26 +1,22 @@
-const express = require('express')
-const ModelClass = require('./model.js');
-const storeJson = require('./stores.json');
-const app = express()
-let Model = null;
+const express = require('express');
+const app = express();
 const port = 3000;
 
-app.get('/setup', async (req, res) => {
-  await Model.setup(storeJson);
-  res.json({success: true});
-});
+const ModelClass = require('./model.js');
+const Model = new ModelClass();
 
 app.get('/', async (req, res) => {
-  const stores = await Model.getAllStores();
+  const stores = await Model.getStores();
   res.json(stores);
-})
+});
 
-const startServer = async () => {
-  Model = new ModelClass();
-  await Model.init();
+const server = async () => {
+  await Model.connectDatabase();
+  await Model.setupDatabase();
+
   app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`);
+    console.log(`Server listening at http://localhost:${port}`);
   });
-}
+};
 
-startServer();
+server();
