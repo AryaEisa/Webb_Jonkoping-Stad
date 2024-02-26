@@ -30,6 +30,20 @@ class ModelClass {
     )`);
 
     await this.connection.query(`
+    CREATE TABLE IF NOT EXISTS public.users
+    (
+        id SERIAL,
+        name text,
+        password text
+
+    )`);
+
+    await this.connection.query(`
+      ALTER TABLE IF EXISTS public.users
+          OWNER to postgres
+    `);
+
+    await this.connection.query(`
       ALTER TABLE IF EXISTS public.stores
           OWNER to postgres
     `);
@@ -55,6 +69,13 @@ class ModelClass {
     const { rows } = await this.connection.query(`
       SELECT * FROM stores
     `);
+    return rows;
+  }
+  
+  async getStoresId(id) {
+    const { rows } = await this.connection.query(`
+      SELECT * FROM stores WHERE id = $1
+    `, [id]);
     return rows;
   }
 
