@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import './venueStyle.css'
 
 const ListVenuesDetail = ({ match }) => {
@@ -27,8 +28,8 @@ const ListVenuesDetail = ({ match }) => {
     return (
         <div className="venues-container">
             <h2>{venue.name}</h2>
-            <p>Address: {venue.address}</p>
-            <img src={venue.img} alt={venue.name} />
+            <p>{venue.address}</p>
+            <img src={venue.img} alt="no" />
         </div>
     );
 }

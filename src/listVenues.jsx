@@ -32,7 +32,8 @@ const ListVenues = () => {
                 <tbody>
                     {venues.map(venue => (
                         <tr key={venue.id}>
-                            <td><Link to={`/venues/${venue.id}`}>{venue.name}</Link></td>
+                            {/* Use Link component with correct to prop */}
+                            <td>{venue.name}</td>
                             <td>{venue.address}</td>
                             <td><img src={venue.img} alt={venue.name} /></td>
                         </tr>

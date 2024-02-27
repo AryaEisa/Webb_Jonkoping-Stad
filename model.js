@@ -22,10 +22,11 @@ class ModelClass {
     CREATE TABLE IF NOT EXISTS public.stores
     (
         id SERIAL,
-        name text,
-        url text,
-        district text,
-        rating integer,
+        name TEXT,
+        url TEXT,
+        district TEXT,
+        address TEXT, 
+        img TEXT,
         CONSTRAINT stores_pkey PRIMARY KEY (id)
     )`);
 
@@ -58,11 +59,12 @@ class ModelClass {
       if (rows.length === 0) {
         console.log(`Inserting ${store.name}`);
         await this.connection.query(`
-          INSERT INTO stores (name, url, district)
-          VALUES ($1, $2, $3)
-        `, [store.name, store.url, store.district]);
+        INSERT INTO stores (name, url, district, address, img)
+        VALUES ($1, $2, $3, $4, $5)
+    `, [store.name, store.url, store.district, store.address, store.img]);
       }
     }
+    
   }
 
   async getStores() {
@@ -74,10 +76,10 @@ class ModelClass {
   
   async getStoresId(id) {
     const { rows } = await this.connection.query(`
-      SELECT * FROM stores WHERE id = $1
+      SELECT * FROM stores WHERE id = $1,
     `, [id]);
     return rows;
-  }
+}
 
 
 }
