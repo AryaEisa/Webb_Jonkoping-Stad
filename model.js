@@ -76,7 +76,7 @@ class ModelClass {
   
   async getStoresId(id) {
     const { rows } = await this.connection.query(`
-      SELECT * FROM stores WHERE id = $1,
+      SELECT * FROM stores WHERE id = $1
     `, [id]);
     return rows;
 }

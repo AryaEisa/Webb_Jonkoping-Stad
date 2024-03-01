@@ -22,24 +22,20 @@ const ListVenues = () => {
 
     return (
         <div className="venues-container">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Address</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {venues.map(venue => (
-                        <tr key={venue.id}>
-                            {/* Use Link component with correct to prop */}
-                            <td>{venue.name}</td>
-                            <td>{venue.address}</td>
-                            <td><img src={venue.img} alt={venue.name} /></td>
-                        </tr>
-                    ))}
-                </tbody>
-            </table>
+            <h1>Venues List</h1>
+            <div className="venue-cards">
+                {venues.map((venue) => (
+                    <div key={venue.id} className="venue-card">
+                        <img className="venue-img" src={venue.img} alt={venue.name} />
+                        <div className="venue-details">
+                            <h2>{venue.name}</h2>
+                            <p>{venue.district}</p>
+                            <p>{venue.address}</p>
+                            <Link className="btn btn-info" to={`/venues/${venue.id}`}>View Details</Link>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }
