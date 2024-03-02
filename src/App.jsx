@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ListVenues from './listVenues';
 import ListVenuesDetail from './listVenueDetails';
+import Navbar from "./components/Navbar";
+import "./venueStyle.css";
 
 function App() {
   return (
@@ -15,4 +17,13 @@ function App() {
   );
 }
 
+
+const App = () =>{
+  return <div><Navbar/></div>;
+};
+
+
+
 export default App;
+
+
