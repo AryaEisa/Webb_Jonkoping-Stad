@@ -12,7 +12,7 @@ class ModelClass {
       port: 5432,
     });
   }
-
+//test
   async connectDatabase() {
     await this.connection.connect();
   }
