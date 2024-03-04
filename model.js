@@ -25,6 +25,7 @@ class ModelClass {
         name TEXT,
         url TEXT,
         district TEXT,
+        category TEXT,
         address TEXT, 
         img TEXT,
         CONSTRAINT stores_pkey PRIMARY KEY (id)
@@ -59,9 +60,9 @@ class ModelClass {
       if (rows.length === 0) {
         console.log(`Inserting ${store.name}`);
         await this.connection.query(`
-        INSERT INTO stores (name, url, district, address, img)
-        VALUES ($1, $2, $3, $4, $5)
-    `, [store.name, store.url, store.district, store.address, store.img]);
+        INSERT INTO stores (name, url, district, category, address, img)
+        VALUES ($1, $2, $3, $4, $5, $6)
+    `, [store.name, store.url, store.district, store.category, store.address, store.img]);
       }
     }
     
