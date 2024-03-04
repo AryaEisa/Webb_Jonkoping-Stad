@@ -2,12 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ListVenues from './listVenues';
 import ListVenuesDetail from './listVenueDetails';
-import Navbar from "./components/Navbar";
 import "./venueStyle.css";
+import Navbar from './header';
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<ListVenues />} />
         <Route path="/venues" element={<ListVenues />} />
@@ -17,11 +18,11 @@ function App() {
   );
 }
 
-
+/*
 const App = () =>{
   return <div><Navbar/></div>;
 };
-
+*/
 
 
 export default App;
