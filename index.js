@@ -19,6 +19,10 @@ app.get('/venues', async (req, res) => {
   const stores = await Model.getStores();
   res.json(stores);
 });
+app.get('/login', (req, res) => {
+  // You can render a login page or send some data here
+  res.send('This is the login page');
+});
 
 app.get('/venues/:id', async (req, res) => {
   try {

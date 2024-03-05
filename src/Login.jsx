@@ -1,8 +1,5 @@
-
-
-import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import './Login.css'; //
+import React, { useState } from "react";
+import './Login.css';
 
 function Login() {
   const [username, setUsername] = useState('');
@@ -14,7 +11,7 @@ function Login() {
   };
 
   return (
-    <div className="form-container" id="login">
+    <div className="form-container" id="login" style={{backgroundImage: `url('https://jkpg.com/media/filer_public/ec/ee/ecee4aac-b873-4c66-96fa-1e50b5c4bd8f/hemsida.jpg')`}}>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label className="form-label">Username:</label>
