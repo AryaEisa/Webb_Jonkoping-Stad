@@ -1,719 +1,953 @@
 [
-    {
-      "name": "Åhlens",
-      "url": "ahlens.se/varuhus/jonkoping?utm_source=google&utm_medium=organic&utm_campaign=business_profile&utm_content=website_link",
-      "district": "Öster",
-      "address": "Ö. Storgatan 34, 550 21 Jönköping",
-      "category": "Shopping",
-      "img": "https://www.ehandel.se/wp-content/uploads/2021/04/ahlens.jpg" 
-      
-    },
-    {
-      "name": "Akademibokhandeln",
-      "url": "akademibokhandeln.se/butik/jonkoping-c",
-      "district": "Öster",
-      "category": "Shopping",
-      "address": "Östra Storgatan 28A, 553 21 Jönköping",
-      "img": "https://bilder.akademibokhandeln.se/media/cache/2e/8a/2e8af736ca9ba9e45611cc19d1b7172e.jpg"
-    },
-    {
-      "name": "Apoteket AB",
-      "url": "apoteket.se/apotek/apoteket-ostra-storgatan-jonkoping/",
-      "district": "Östra",
-      "category": "Shopping",
-      "address": "Östra Storgatan 21, 553 21 Jönköping",
-      "img": "https://static.bonniernews.se/bildix/api/images/342d48e5-f927-40b6-ac4e-f32157cb3f83.jpeg?fit=crop&w=1400&h=788"
+  {
+    "name": "Åhlens",
+    "url": "ahlens.se/varuhus/jonkoping?utm_source=google&utm_medium=organic&utm_campaign=business_profile&utm_content=website_link",
+    "district": "Öster",
+    "address": "Ö. Storgatan 34, 550 21 Jönköping",
+    "img": "https://www.ehandel.se/wp-content/uploads/2021/04/ahlens.jpg" 
+    
+  },
+  {
+    "name": "Akademibokhandeln",
+    "url": "akademibokhandeln.se/butik/jonkoping-c",
+    "district": "Öster",
+    "address": "Östra Storgatan 28A, 553 21 Jönköping",
+    "img": "https://bilder.akademibokhandeln.se/media/cache/2e/8a/2e8af736ca9ba9e45611cc19d1b7172e.jpg"
+  },
+  {
+    "name": "Apoteket AB",
+    "url": "apoteket.se/apotek/apoteket-ostra-storgatan-jonkoping/",
+    "district": "Östra",
+    "address": "Östra Storgatan 21, 553 21 Jönköping",
+    "img": "https://static.bonniernews.se/bildix/api/images/342d48e5-f927-40b6-ac4e-f32157cb3f83.jpeg?fit=crop&w=1400&h=788"
 
-    },
-    {
-      "name": "Apotek Hjärtat",
-      "url": "apotekhjartat.se/hitta-apotek-hjartat/jonkoping/apotek_hjartat_smedjegatan_2_jonkoping/",
-      "district": "Östra",
-      "category": "Medicin",
-      "address": "Smedjegatan 2, 553 20 Jönköping",
-      "img": "https://lh3.googleusercontent.com/p/AF1QipOEUqXncU-IX4uXyP0nXS9baKroaGdzjOWrQhak=s1360-w1360-h1020"
-    },
-    
-    {
-      "name": "Asia livs, servicebutik",
-      "url": "facebook.com/profile.php?id=100051215441977",
-      "district": "Väster",
-      "category": "Livsmedel",
-      "address": "Östra Storgatan 73, 553 21 Jönköping",
-      "img": "https://lh3.googleusercontent.com/p/AF1QipPkinca7AAw6HdqqZP-EHfU9yowk83qaibax34U=w1080-h608-p-no-v0"
-    },
-    {
-      "name": "Ateljé Creativ i Jönköping/Finrummet",
-      "url": "/finrummet.net",
-      "district": "Väster",
-      "category": "Cafe",
-      "address": "Skolgatan 11, 553 61 Jönköping",
-      "img": "https://lh3.googleusercontent.com/p/AF1QipO5WyuJ_lqhVRuaDD4zdrR76ALWWefp-YCrgu9r=s1360-w1360-h1020"
-    },
-    {
-      "name": "Ateljé KEG",
-      "url": "ateljekeg.se",
-      "district": "Öster",
-      "category": "Shopping",
-      "address": "Smedjegatan 28, 553 20 Jönköping",
-      "img": "https://lh3.googleusercontent.com/p/AF1QipMl8FrtsLy22YsuYy6qWVq0WVeiVDz2Sj1g83hu=s1360-w1360-h1020"
-    },
-    {
-      "name": "Atlantis Dive College",
-      "url": "atlantis.se",
-      "district": "Väster",
-      "category": "Shopping",
-      "address": "Nygatan 10, 553 16 Jönköping",
-      "img": "https://lh3.googleusercontent.com/p/AF1QipMJbwkNcMBeFFQF9_DwUU1lulWUHRYvG4hLpsM=s1360-w1360-h1020"
-    },
-    
-    {
-      "name": "Balance Ljud och Bild",
-      "url": "balance.se",
-      "district": "Öster",
-      "address": "Tändsticksgränd 34, 553 15 Jönköping",
-      "img": "https://lh3.googleusercontent.com/p/AF1QipM94Wq4VEQEe0PirRcAniAZ8JOnkQH-4OYzDP-A=s1360-w1360-h1020"
-    },
-    {
-      "name": "BGA Fotocenter",
-      "url": "bgafotocenter.se/jonkoping/",
-      "district": "Öster",
-      "address": "Smedjegatan 8, 553 20 Jönköping",
-      "img": "https://lh3.googleusercontent.com/p/AF1QipNUVHuunTNRfD71XhKh8IQ8RPa0vyyiuNjWNVbr=s1360-w1360-h1020"
-    },
-    {
-      "name": "Bikupan",
-      "url": "bikupan.org",
-      "district": "Tändsticksområdet"
-    },
-    {
-      "name": "Blankdays",
-      "url": "https://blankdays.com/collections/all-products?gclid=CjwKCAjwov6hBhBsEiwAvrvN6EZZ1PsnlSJhnE7bmxINtl0Y0noU3rvCybdt217CGd3-bqMdx3mYRxoCK5EQAvD_BwE",
-      "district": "Tändsticksområdet"
-    },
-    {
-      "name": "Boardlife",
-      "url": "boardlife.se",
-      "district": "Väster"
-    },
-    {
-      "name": "Borgs skor",
-      "url": "borgsskor.se/kontakt",
-      "district": "Öster"
-    },
-    {
-      "name": "Boutique Lykka",
-      "url": "boutiquelykka.se",
-      "district": "Öster"
-    },
-    {
-      "name": "Broder Bläck",
-      "url": "facebook.com/broderblacktatuering/",
-      "district": "Öster"
-    },
-    {
-      "name": "Buketten",
-      "url": "instagram.com/bukettenjonkoping/?hl=sv",
-      "district": "Öster"
-    },
-    {
-      "name": "Busfrö Nytt & Bytt",
-      "url": "busfro.se",
-      "district": "Öster"
-    },
-    {
-      "name": "Butiken Noga Utvalt",
-      "url": "butikenjkpg.se",
-      "district": "Atollen"
-    },
-    {
-      "name": "Carlings",
-      "url": "carlings.com/sv/corporate/Butiker/sweden/58f/",
-      "district": "Öster"
-    },
-    {
-      "name": "Casa Souk",
-      "url": "casasouk.se",
-      "district": "Väster"
-    },
-    {
-      "name": "Cervera",
-      "url": "cervera.se/hitta-butik/",
-      "district": "Öster"
-    },
-    {
-      "name": "Clas Ohlson",
-      "url": "clasohlson.com/se/store-finder?q=J%C3%B6nk%C3%B6ping,%20City&latitude=57.78252&longitude=14.17347&source=search",
-      "district": "Öster"
-    },
-    {
-      "name": "Coop Atollen",
-      "url": "coop.se/butiker-erbjudanden/coop/coop-atollen-jonkoping/",
-      "district": "Atollen"
-    },
-    {
-      "name": "Coop Östra Torget",
-      "url": "coop.se/butiker-erbjudanden/coop/coop-ostra-torget/",
-      "district": "Öster"
-    },
-    {
-      "name": "Copenhagen Luxe",
-      "url": "https://copenhagenluxe.dk/",
-      "district": "Öster"
-    },
-    {
-      "name": "Day fotografi",
-      "url": "dayfotografi.se/",
-      "district": null
-    },
-    {
-      "name": "Dinos kemtvätt",
-      "url": "dinos.nu",
-      "district": "Väster"
-    },
-    {
-      "name": "Din Sko",
-      "url": "dinsko.se/stores",
-      "district": "Öster"
-    },
-    {
-      "name": "Direkt optik",
-      "url": "https://www.direktoptik.se/butiker/jonkoping/ostra-storgatan-29/",
-      "district": null
-    },
-    {
-      "name": "Dressman",
-      "url": "dressmann.com/no/bedriftssider/finn-butikk/Sweden/Dressmann_Jonkoping/",
-      "district": "Öster"
-    },
-    {
-      "name": "Elias Urmästare",
-      "url": "facebook.com/profile.php?id=100064073112753",
-      "district": null
-    },
-    {
-      "name": "Engströms Urmakeri",
-      "url": "engstromsurmakeri.se",
-      "district": null
-    },
-    {
-      "name": "Euroex",
-      "url": null,
-      "district": null
-    },
-    {
-      "name": "Evoke industry",
-      "url": null,
-      "district": null
-    },
-    {
-      "name": "Fabriken",
-      "url": "butikfabriken.se",
-      "district": "Atollen"
-    },
-    {
-      "name": "Fiction Prescription",
-      "url": "https://www.instagram.com/fiction.prescription.jonkoping/",
-      "district": null
-    },
-    {
-      "name": "Forex Bank Väster",
-      "url": null,
-      "district": "Väster"
-    },
-    {
-      "name": "Foten",
-      "url": "https://www.foten.se/",
-      "district": null
-    },
-    {
-      "name": "Friendly Corner",
-      "url": "https://friendlycorner.se/butiken",
-      "district": "Tändsticksområdet"
-    },
-    {
-      "name": "Galleri 701 ramcenter",
-      "url": "galleri701-ram.se",
-      "district": null
-    },
-    {
-      "name": "Gant",
-      "url": "gant.se/stores?lat=57.78261370000001&long=14.1617876&postalCode=j%C3%B6nk%C3%B6ping&radius=10.0",
-      "district": "Atollen"
-    },
-    {
-      "name": "Gåvan",
-      "url": "gavanjonkoping.se",
-      "district": "Öster"
-    },
-    {
-      "name": "Gina Tricot",
-      "url": "ginatricot.com/se/find-store",
-      "district": "Öster"
-    },
-    {
-      "name": "Go Banana",
-      "url": "gobanana.se",
-      "district": "Väster"
-    },
-    {
-      "name": "Godis och Tobakshörnan",
-      "url": null,
-      "district": "Öster"
-    },
-    {
-      "name": "Golden athlete",
-      "url": "goldenathlete.se/sv/butiker-2",
-      "district": "Öster"
-    },
-    {
-      "name": "Grmawit Store",
-      "url": "grmawit.com/",
-      "district": "Väster"
-    },
-    {
-      "name": "Guldsmedjan Snarberg",
-      "url": "guldsmedjan-snarberg.se",
-      "district": "Väster"
-    },
-    {
-      "name": "Hälsokraft",
-      "url": "halsokraft.se/butiker?butik=503",
-      "district": "Öster"
-    },
-    {
-      "name": "Hemköp",
-      "url": "hemkop.se/butik/4674",
-      "district": "Väster"
-    },
-    {
-      "name": "Hemmakväll",
-      "url": "hemmakvall.se/hitta-butik/",
-      "district": "Öster"
-    },
-    {
-      "name": "Hemtex",
-      "url": "hemtex.se/hitta-butik/jonkoping",
-      "district": "Öster"
-    },
-    {
-      "name": "Hi-fi Klubben",
-      "url": "hifiklubben.se/hitta-butik/jonkoping/?gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH4w2ngSDzygBKQSqHVzCSFAplyrpByCMojT6dfo-Xnjcn7P9j_jBn8aAsD0EALw_wcB",
-      "district": "Väster"
-    },
-    {
-      "name": "H&M",
-      "url": "hm.com/sv_se/customer-service/shoppa-pa-hm/store-locator",
-      "district": "Öster"
-    },
-    {
-      "name": "H&M Home",
-      "url": "hm.com/sv_se/customer-service/shoppa-pa-hm/store-locator",
-      "district": "Öster"
-    },
-    {
-      "name": "Indiska",
-      "url": "indiska.com/se/butiker",
-      "district": "Öster"
-    },
-    {
-      "name": "Jeansshoppen",
-      "url": "jeansshopen.se/sv/kontakt",
-      "district": "Öster"
-    },
-    {
-      "name": "JL Sycenter",
-      "url": "jlsycenter.se/kontakta-oss/",
-      "district": null
-    },
-    {
-      "name": "Jönköpings antik och konsthandel",
-      "url": null,
-      "district": "Väster"
-    },
-    {
-      "name": "Jönköpings Cigrarrimport",
-      "url": "atg.se/jonkopingscigarrimport",
-      "district": null
-    },
-    {
-      "name": "KappAhl",
-      "url": "www.kappahl.com/sv-SE/kundservice/kundservice/hitta-butik/",
-      "district": "Öster"
-    },
-    {
-      "name": "Karin Lund Design",
-      "url": "facebook.com/karinlunddesign/",
-      "district": null
-    },
-    {
-      "name": "Katrin Bååths Ateljé",
-      "url": "https://katrinbaath.se/ateljen/",
-      "district": "Tändsticksområdet"
-    },
-    {
-      "name": "Kicks",
-      "url": "kicks.se/butiker/jonkoping-smedjegatan",
-      "district": "Öster"
-    },
-    {
-      "name": "Kjell & Company",
-      "url": "kjell.com/se/butiker/sodra-strandgatan-5",
-      "district": "Öster"
-    },
-    {
-      "name": "Klädscoopet",
-      "url": "facebook.com/Kladscoopet/",
-      "district": "Öster"
-    },
-    {
-      "name": "KOiJ Konsthantverk",
-      "url": "koij.se",
-      "district": "Öster"
-    },
-    {
-      "name": "Kristina Brud & Fest",
-      "url": "kristinabrud-fest.se",
-      "district": "Väster"
-    },
-    {
-      "name": "Kronans Apotek Atollen",
-      "url": "apoteksinfo.nu/apotek/kronans_apotek_atollen_j%C3%B6nk%C3%B6ping-1415",
-      "district": "Atollen"
-    },
-    {
-      "name": "Kvänum Kök",
-      "url": "kvanum.com/se/showrooms/jonkoping/",
-      "district": "Öster"
-    },
-    {
-      "name": "Lagerhaus",
-      "url": "lagerhaus.se/stores",
-      "district": "Öster"
-    },
-    {
-      "name": "Lavér Studio",
-      "url": "laverstudio.com/",
-      "district": null
-    },
-    {
-      "name": "Life Naturlig Hälsa",
-      "url": "https://www.lifebutiken.se/stores",
-      "district": "Väster"
-    },
-    {
-      "name": "Lilla Violen",
-      "url": "lillaviolen.com/",
-      "district": "Väster"
-    },
-    {
-      "name": "Lindex",
-      "url": "lindex.com/se/hitta-din-butik?location=57.756066%2C14.188254&storeId=002&zoom=11",
-      "district": "Öster"
-    },
-    {
-      "name": "Livspotential Kroppsterapi",
-      "url": "facebook.com/Livspotential/",
-      "district": null
-    },
-    {
-      "name": "Lloyd Tabing Art Gallery",
-      "url": "lloydtabingart.com/",
-      "district": "Tändsticksområdet"
-    },
-    {
-      "name": "Macforum",
-      "url": "macforum.se/butiker/forum-jonkoping",
-      "district": "Öster"
-    },
-    {
-      "name": "MarQet",
-      "url": "mq.se/butiker/?gclid=Cj0KCQjwteOaBhDuARIsADBqRejM-U3YQY9vh4F6gSXC2LnJWPVGKJ7CGfiCl1tYkREGUR37cTWMNcoaAjFGEALw_wcB",
-      "district": "Öster"
-    },
-    {
-      "name": "Mimosa City",
-      "url": "mimosacity.se",
-      "district": null
-    },
-    {
-      "name": "Moderna Smycken",
-      "url": "klockorochsmycken.se/",
-      "district": "Öster"
-    },
-    {
-      "name": "Naturkompaniet",
-      "url": "murphysbar.se/sv/",
-      "district": "Öster"
-    },
-    {
-      "name": "Newhouse",
-      "url": "newhouse.se/newhouse/vara-butiker",
-      "district": "Atollen"
-    },
-    {
-      "name": "New Yorker",
-      "url": "newyorker.de/se/stores/",
-      "district": "Öster"
-    },
-    {
-      "name": "Nilson Shoes",
-      "url": "dinsko.se/stores",
-      "district": "Öster"
-    },
-    {
-      "name": "Noa Noa",
-      "url": "httpsfacebook.com/Noa-Noa-J%C3%B6nk%C3%B6ping-446212958766553/",
-      "district": "Öster"
-    },
-    {
-      "name": "Nordisk Möbelkonst",
-      "url": "nordiskmobelkonst.se/",
-      "district": "Öster"
-    },
-    {
-      "name": "Normal",
-      "url": "normal.se/hitta-butik/",
-      "district": "Öster"
-    },
-    {
-      "name": "Nya Musik",
-      "url": "nyamusik.se/",
-      "district": "Väster"
-    },
-    {
-      "name": "Once for girls",
-      "url": "oncestore.se/",
-      "district": "Öster"
-    },
-    {
-      "name": "Önska",
-      "url": "onska.se/vara-butiker/",
-      "district": "Öster"
-    },
-    {
-      "name": "Optiker Jahnke",
-      "url": "jahnke.se/",
-      "district": "Öster"
-    },
-    {
-      "name": "Optiker Ullström",
-      "url": "optikerullstrom.se/",
-      "district": "Väster"
-    },
-    {
-      "name": "Optik & Form",
-      "url": "optikochform.se/",
-      "district": null
-    },
-    {
-      "name": "Partyland",
-      "url": "partyland.party/butiker/",
-      "district": "Väster"
-    },
-    {
-      "name": "Planta Blommor",
-      "url": "plantablommor.se/?gclid=Cj0KCQjwteOaBhDuARIsADBqRehsWXSRNHjeGnPn_AyambJZLmNntWxsMnUkANIHdme0NoDtc2Xi8mgaAicoEALw_wcB#.Y2p1tuzMLPZ",
-      "district": "Väster"
-    },
-    {
-      "name": "Pleasure erotic shop",
-      "url": "pleasureeroticshop.se/",
-      "district": "Väster"
-    },
-    {
-      "name": "PMU Second Hand Jönköping City",
-      "url": "pmu.se/stores/jonkopingcity/",
-      "district": "Öster"
-    },
-    {
-      "name": "Pressbyrån Östra storgatan",
-      "url": "pressbyran.se/kontakt/hitta-butik/",
-      "district": "Öster"
-    },
-    {
-      "name": "Pressbyrån Resecentrum",
-      "url": "pressbyran.se/kontakt/hitta-butik/",
-      "district": "Resecentrum"
-    },
-    {
-      "name": "Pressbyrån Väster",
-      "url": "pressbyran.se/kontakt/hitta-butik/",
-      "district": "Väster"
-    },
-    {
-      "name": "Rabalder",
-      "url": "publik.rabalder.se/butiker/joenkoeping.aspx",
-      "district": "Öster"
-    },
-    {
-      "name": "Resehuset",
-      "url": "resehuset.se/",
-      "district": "Väster"
-    },
-    {
-      "name": "Rituals",
-      "url": "rituals.com/sv-se/store-detail?store=J%C3%B6nk%C3%B6ping-%C3%96stra-Storgatan",
-      "district": "Öster"
-    },
-    {
-      "name": "Rizzo",
-      "url": "rizzo.se/stores/",
-      "district": "Öster"
-    },
-    {
-      "name": "Röda Korset Second Hand ",
-      "url": "rodakorset.se/vad-vi-gor/second-hand/butiker/roda-korset-secondhand-jonkoping/?gclid=CjwKCAjwzY2bBhB6EiwAPpUpZvHzKjPuEJP8mzdhkuZYuEUoinVduEX8lEL6C0cnHq-JkG5o4XalYBoCwX8QAvD_BwE",
-      "district": "Väster"
-    },
-    {
-      "name": "Rundquist & Zälle",
-      "url": "rundquist-zalle.com",
-      "district": "Väster"
-    },
-    {
-      "name": "Säfvers Tobak",
-      "url": "facebook.com/people/S%C3%A4fvers-tobak/100049803762896/",
-      "district": null
-    },
-    {
-      "name": "SåIniNordeN",
-      "url": "saininorden.se/",
-      "district": "Öster"
-    },
-    {
-      "name": "Sandströms",
-      "url": "sandstroms.nu/butiker/sandstroms-jonkoping",
-      "district": "Öster"
-    },
-    {
-      "name": "Sarabello",
-      "url": "facebook.com/people/SARABELLO/100054240470073/",
-      "district": "Öster"
-    },
-    {
-      "name": "Saumas sko & nyckelservice",
-      "url": "saumasskoochnyckelservice.heymo.se/",
-      "district": null
-    },
-    {
-      "name": "Sjöqvists skomakeri",
-      "url": "sjoqvistskomakeri.se/",
-      "district": "Väster"
-    },
-    {
-      "name": "Smålands Skinnmanufaktur",
-      "url": "smalandsskinnmanufaktur.se/",
-      "district": "Tändsticksområdet"
-    },
-    {
-      "name": "Smarteyes",
-      "url": "smarteyes.se/butiker/jonkoping",
-      "district": null
-    },
-    {
-      "name": "Smycka Guld",
-      "url": "smycka.se/store/19",
-      "district": null
-    },
-    {
-      "name": "Smycket",
-      "url": "smycketjonkoping.se/",
-      "district": null
-    },
-    {
-      "name": "Specsavers",
-      "url": "httpspecsavers.se/hitta-till-din-butik/jonkoping-city?utm_source=google&utm_medium=organic&utm_campaign=gmb-website&utm_content=jonkoping&y_source=1_NDA4Nzk2NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
-      "district": null
-    },
-    {
-      "name": "Stagelight",
-      "url": "stagelight.se/",
-      "district": null
-    },
-    {
-      "name": "Stil",
-      "url": "stilbutikerna.se/",
-      "district": "Öster"
-    },
-    {
-      "name": "Story",
-      "url": "storyjkpg.se",
-      "district": "Atollen"
-    },
-    {
-      "name": "SunOff",
-      "url": "sunoff.se/butiker/jonkoping?gclid=CjwKCAjw8JKbBhBYEiwAs3sxNy3EnUFGceeFxyJN35fymdpsg5qEWUTPj6Sx0TbNoLdwp8E6AI-I5xoC45gQAvD_BwE",
-      "district": "Väster"
-    },
-    {
-      "name": "Synoptik",
-      "url": "httpsynoptik.se/butiker/jonkoping/jonkoping-ostra-storgatan5?utm_campaign=gmb-website&utm_source=google&utm_medium=organic&utm_content=667-Jonkoping-Ostra-Storgatan-5",
-      "district": null
-    },
-    {
-      "name": "Synsam Jönköping Öster",
-      "url": "synsam.se/optiker/synsam-j%C3%B6nk%C3%B6ping-%C3%B6ster/128",
-      "district": "Öster"
-    },
-    {
-      "name": "Synsam Jönköping Väster",
-      "url": "synsam.se/optiker/synsam-j%C3%B6nk%C3%B6ping-v%C3%A4ster/125",
-      "district": "Väster"
-    },
-    {
-      "name": "Systembolaget",
-      "url": "systembolaget.se/butiker-ombud/",
-      "district": "Öster"
-    },
-    {
-      "name": "The Body Shop",
-      "url": "thebodyshop.com/sv-se/store-details/jonkoping-smedjegatan/3801?utm_source=google&utm_medium=organic-local&utm_campaign=yext&utm_content=3801",
-      "district": "Öster"
-    },
-    {
-      "name": "Ticket",
-      "url": "ticket.se/resebutiker/jonkoping.html",
-      "district": null
-    },
-    {
-      "name": "Twilfit",
-      "url": "shop.change.com/sv-SE",
-      "district": "Öster"
-    },
-    {
-      "name": "Ur & Penn",
-      "url": "uropenn.se/hitta-butik/",
-      "district": "Öster"
-    },
-    {
-      "name": "Västanhem Butik",
-      "url": "vastanhem.se",
-      "district": "Väster"
-    },
-    {
-      "name": "Västra klackbaren",
-      "url": null,
-      "district": null
-    },
-    {
-      "name": "Vätterbygden Ankarbergs Begravningsbyrå",
-      "url": "ankarbergs.se/",
-      "district": null
-    },
-    {
-      "name": "Vätterfisk",
-      "url": "xn--vtterfisk-v2a.se/",
-      "district": "Väster"
-    },
-    {
-      "name": "Yxhage Lås och Larm",
-      "url": "yxhage.se/",
-      "district": null
-    },
-    {
-      "name": "Zephyr Tattoo Parlour",
-      "url": "zephyrtattoo.se",
-      "district": "Öster"
-    }
-  ]
+  },
+  {
+    "name": "Apotek Hjärtat",
+    "url": "apotekhjartat.se/hitta-apotek-hjartat/jonkoping/apotek_hjartat_smedjegatan_2_jonkoping/",
+    "district": "Östra",
+    "address": "Smedjegatan 2, 553 20 Jönköping",
+    "img": "https://lh3.googleusercontent.com/p/AF1QipOEUqXncU-IX4uXyP0nXS9baKroaGdzjOWrQhak=s1360-w1360-h1020"
+  },
+  
+  {
+    "name": "Asia livs, servicebutik",
+    "url": "facebook.com/profile.php?id=100051215441977",
+    "district": "Väster",
+    "address": "Östra Storgatan 73, 553 21 Jönköping",
+    "img": "https://lh3.googleusercontent.com/p/AF1QipPkinca7AAw6HdqqZP-EHfU9yowk83qaibax34U=w1080-h608-p-no-v0"
+  },
+  {
+    "name": "Ateljé Creativ i Jönköping/Finrummet",
+    "url": "/finrummet.net",
+    "district": "Väster",
+    "address": "Skolgatan 11, 553 61 Jönköping",
+    "img": "https://lh3.googleusercontent.com/p/AF1QipO5WyuJ_lqhVRuaDD4zdrR76ALWWefp-YCrgu9r=s1360-w1360-h1020"
+  },
+  {
+    "name": "Ateljé KEG",
+    "url": "ateljekeg.se",
+    "district": "Öster",
+    "address": "Smedjegatan 28, 553 20 Jönköping",
+    "img": "https://lh3.googleusercontent.com/p/AF1QipMl8FrtsLy22YsuYy6qWVq0WVeiVDz2Sj1g83hu=s1360-w1360-h1020"
+  },
+  {
+    "name": "Atlantis Dive College",
+    "url": "atlantis.se",
+    "district": "Väster",
+    "address": "Nygatan 10, 553 16 Jönköping",
+    "img": "https://lh3.googleusercontent.com/p/AF1QipMJbwkNcMBeFFQF9_DwUU1lulWUHRYvG4hLpsM=s1360-w1360-h1020"
+  },
+  
+  {
+    "name": "Balance Ljud och Bild",
+    "url": "balance.se",
+    "district": "Öster",
+    "address": "Tändsticksgränd 34, 553 15 Jönköping",
+    "img": "https://lh3.googleusercontent.com/p/AF1QipM94Wq4VEQEe0PirRcAniAZ8JOnkQH-4OYzDP-A=s1360-w1360-h1020"
+  },
+  {
+    "name": "BGA Fotocenter",
+    "url": "bgafotocenter.se/jonkoping/",
+    "district": "Öster",
+    "address": "Smedjegatan 8, 553 20 Jönköping",
+    "img": "https://lh3.googleusercontent.com/p/AF1QipNUVHuunTNRfD71XhKh8IQ8RPa0vyyiuNjWNVbr=s1360-w1360-h1020"
+  },
+  {
+    "name": "Bikupan",
+    "url": "bikupan.org",
+    "district": "Tändsticksområdet",
+    "address": "Nygatan 10, 553 16 Jönköping",
+    "img": "https://bikupan.org/wp-content/uploads/2022/06/utomhus.bikupan.jpg"
+  },
+  {
+    "name": "Blankdays",
+    "url": "https://blankdays.com/collections/all-products?gclid=CjwKCAjwov6hBhBsEiwAvrvN6EZZ1PsnlSJhnE7bmxINtl0Y0noU3rvCybdt217CGd3-bqMdx3mYRxoCK5EQAvD_BwE",
+    "district": "Tändsticksområdet",
+    "address": "Tändsticksgränd 20, 553 15 Jönköping",
+    "img":"https://static.bonniernews.se/bildix/api/images/befc792d-4e92-4309-9e95-12a5506fbccf.jpeg?fit=crop&w=640"
+
+  },
+  {
+    "name": "Boardlife",
+    "url": "boardlife.se",
+    "address":"Smålandsgatan 17, 553 16 Jönköping",
+    "district": "Väster",
+    "img":"https://www.boardlife.se/wp-content/uploads/2016/04/boardlife-street-store-wall.jpg"
+  },
+  {
+    "name": "Borgs skor",
+    "url": "borgsskor.se/kontakt",
+    "address":" Smedjegatan 24, 553 20 Jönköping",
+    "img":"https://borgsskor.se/image-cache/containers/filer/foto-2022-09-06-15-50-37-1662556880.jpg/a0fc712817b5946cf225e81eacd8fa98.jpg",
+    "district": "Öster"
+  },
+  {
+    "name": "Boutique Lykka",
+    "url": "boutiquelykka.se",
+    "district": "Öster",
+    "img":"https://media.licdn.com/dms/image/D4D22AQHdiQnxwuk9Zw/feedshare-shrink_800/0/1696581773563?e=2147483647&v=beta&t=F_d3P6fn-vDZ6uS_D1XDmhoXUE8oqaMdleNXPiKEPo8",
+    "address":"Östra Storgatan 25-27, 553 21 Jönköping"
+  },
+  {
+    "name": "Broder Bläck",
+    "url": "facebook.com/broderblacktatuering/",
+    "img":"https://tatuering.nu/wp-content/uploads/2023/10/tatuerare-600x381.png",
+    "address": " Rörstrandsgatan 11, 556 28 Jönköping",
+    "district": "Öster"
+  },
+  {
+    "name": "Buketten",
+    "url": "instagram.com/bukettenjonkoping/?hl=sv",
+    "address": " Östra Storgatan 25, 553 21 Jönköping",
+    "district": "Öster",
+    "img":"https://blombud.online/images/buketten-j-nk-ping-j-nk-ping-3.jpg"
+  },
+  {
+    "name": "Busfrö Nytt & Bytt",
+    "url": "busfro.se",
+    "district": "Öster",
+    "img":"https://static.bonniernews.se/bildix/api/images/a3a99f51-b55c-47f9-ba38-3c578cb6f17d.jpeg?fit=crop&w=1400&h=933",
+    "address": "Smedjegatan 25B, 553 20 Jönköping"
+  },
+  {
+    "name": "Butiken Noga Utvalt",
+    "url": "butikenjkpg.se",
+    "district": "Atollen",
+    "address":"Lantmätargränd 42, 553 20 Jönköping",
+    "img":"https://f.nordiskemedier.dk/2lqecqp042gyr1fb.JPEG"
+  },
+  {
+    "name": "Carlings",
+    "url": "carlings.com/sv/corporate/Butiker/sweden/58f/",
+    "district": "Öster",
+    "img":"https://carlings.imgix.net/globalassets/01-frontpage/1.worldwide/2022/week-34---ms1-push-2/ca22_w34_preview-bilde.jpg?auto=format&w=600",
+    "address": "Jönköping Östra Storgatan, 553 21 Jönköping"
+  },
+  {
+    "name": "Casa Souk",
+    "url": "casasouk.se",
+    "district": "Väster",
+    "address": "Barnarpsgatan 17, 553 16 Jönköping",
+    "img":"https://i0.wp.com/casasouk.se/wp-content/uploads/2023/04/327479681_710877734067805_7645216489808450797_n.jpg?fit=960%2C991&ssl=1"
+
+  },
+  {
+    "name": "Cervera",
+    "url": "cervera.se/hitta-butik/",
+    "district": "Öster",
+    "img": "https://static.bonniernews.se/bildix/api/images/62aa45a7-a573-4fb1-9d19-0389c0d2b0b0.jpeg?fit=crop&w=1200&h=630",
+    "address": "Östra Storgatan 34"
+  },
+  {
+    "name": "Clas Ohlson",
+    "url": "clasohlson.com/se/store-finder?q=J%C3%B6nk%C3%B6ping,%20City&latitude=57.78252&longitude=14.17347&source=search",
+    "district": "Öster",
+    "address":"Kompanigatan 36 553 05 Jönköping",
+    "img": "https://static-cdn.sr.se/images/83/c7ac2f50-049e-4119-b43b-52a5bb097341.jpg"
+  },
+  {
+    "name": "Coop Atollen",
+    "url": "coop.se/butiker-erbjudanden/coop/coop-atollen-jonkoping/",
+    "district": "Atollen",
+    "img": "https://lh5.googleusercontent.com/p/AF1QipMlemIPTpG-KOefSfXCnvv1zCyxvIp40hCFX9G2",
+    "address":"Lantmätargränd 63, 553 20 Jönköping"
+
+  },
+  {
+    "name": "Coop Östra Torget",
+    "url": "coop.se/butiker-erbjudanden/coop/coop-ostra-torget/",
+    "district": "Öster",
+    "address":"Rökerigränd 5, 553 33 Jönköping",
+    "img":"https://www.nordicclimategroup.se/media/fxcno2mb/20140326_091402.jpg?anchor=center&mode=crop&width=480&upscale=false&rnd=133074726470870000"
+
+  },
+  {
+    "name": "Copenhagen Luxe",
+    "url": "https://copenhagenluxe.dk/",
+    "district": "Öster",
+    "img":"https://static.bonniernews.se/bildix/api/images/cc383d59-b2b4-4dfa-a404-479b8d14132f.jpeg?fit=crop&w=640",
+    "address":"Östra Storgatan 11, 553 21 Jönköping"
+  },    
+  {
+    "name": "Day fotografi",
+    "url": "dayfotografi.se/",
+    "district": "Väster",
+    "address":"Borgmästargränd 4A, 553 20 Jönköping",
+    "img":"https://media.happy-day.se/happyday/images/modell-for-en-dag-2023-02-07-144058500/1200/800/fit/c/modell-for-en-dag-i-jonkoping.jpg"
+  },
+  {
+    "name": "Dinos kemtvätt",
+    "url": "dinos.nu",
+    "district": "Väster",
+    "img":"https://ts2.mm.bing.net/th?q=Kemtv%C3%A4tt%20pris",
+    "address":"Nygatan 11, 553 16 Jönköping"
+  },
+  {
+    "name": "Din Sko",
+    "url": "dinsko.se/stores",
+    "district": "Öster",
+    "address":"Östra Storgatan 17, Jönköping",
+    "img":"https://spiralen.se/app/uploads/2018/04/din-sko_spiralen-kopcentrum-norrkoping-820x547.jpg"
+  },
+  {
+    "name": "Direkt optik",
+    "url": "https://www.direktoptik.se/butiker/jonkoping/ostra-storgatan-29/",
+    "district": null,
+    "img":"https://static.bonniernews.se/bildix/api/images/fb20269d-1dbd-4d5a-ae52-9268fa6e31bf.jpeg?fit=crop&w=1400&h=788",
+    "address":"Östra Storgatan 29"
+  },
+  {
+    "name": "Dressman",
+    "url": "dressmann.com/no/bedriftssider/finn-butikk/Sweden/Dressmann_Jonkoping/",
+    "district": "Öster",
+    "address":"Östra Storgatan 28 553 21 Jönköping",
+    "img":"https://poefastigheter.se/wp-content/uploads/2020/08/astern-11-1000x600.jpg"
+
+  },
+  {
+    "name": "Elias Urmästare",
+    "url": "facebook.com/profile.php?id=100064073112753",
+    "district": null,
+    "img":"https://scontent-arn2-1.xx.fbcdn.net/v/t31.18172-8/25358416_1531423256941762_2683677146166577904_o.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=y5pYvR-2HAcAX9pSmjF&_nc_oc=AQnL-3jX3Lhi0-LBtWwTM4tEpbpMIRuu7cE2ZDqzAoRJQCelijlinQEqGtA8n65ik-DaJl4bYZ9Tp-DNMgAK7B8Q&_nc_ht=scontent-arn2-1.xx&oh=00_AfCfkVUQWWzapAa36_5KUmfe5wA5uwwqUNITiZSNyHzNjg&oe=660EA3A5",
+    "address":"Smedjegatan 14, 553 20 Jönköping"
+  },
+  {
+    "name": "Engströms Urmakeri",
+    "url": "engstromsurmakeri.se",
+    "district": null,
+    "address": "Östra Storgatan 13B, 553 21 Jönköping",
+    "img": " https://engstromsurmakeri.se/wp-content/uploads/2021/07/exterio%CC%88r2.png"
+  },
+  {
+    "name": "Euroex",
+    "url": "http://www.euroex.se/",
+    "district": "Väster",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMvkXrEkXTMRMDnjmpvpjLP73fF2_gkuwTLbDwK=w600-k",
+    "address":"Västra Storgatan 7, 553 15 Jönköping"
+  },
+  {
+    "name": "Fabriken",
+    "url": "butikfabriken.se",
+    "district": "Atollen",
+    "img":"https://butikfabriken.se/wp-content/uploads/2021/09/135A9986-992x662-1.jpg",
+    "address":"Lantmätargränd 53, 553 20 Jönköping"
+
+  },
+  {
+    "name": "Fiction Prescription",
+    "url": "https://www.instagram.com/fiction.prescription.jonkoping/",
+    "district": null,
+    "address":"Lantmätargränd 20, 553 20 Jönköping",
+    "img":"data:image/jpeg;base64,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"
+  },
+  {
+    "name": "Forex Bank Väster",
+    "url": null,
+    "district": "Väster",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMGefyIpshYmYZ8nn6H8auSBZ5aHamznMJxblKf=w600-k",
+    "address":"Västra Storgatan 6, 553 15 Jönköping"
+  },
+  {
+    "name": "Foten",
+    "url": "https://www.foten.se/",
+    "district": null,
+    "address":"Östra Storgatan 35, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipO0Uq0ph4Z3cSDE5Az-4ElyFknkwena5emFib8W=s1360-w1360-h1020"
+
+  },
+  {
+    "name": "Friendly Corner",
+    "url": "https://friendlycorner.se/butiken",
+    "district": "Tändsticksområdet",
+    "address":"Tändsticksgränd 36, 553 15 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipOuJ2JzxH-zXRKSXnIf-3Ph42DhFUnEINdlnWAN=s1360-w1360-h1020"
+  },
+  {
+    "name": "Galleri 701 ramcenter",
+    "url": "galleri701-ram.se",
+    "district": null,
+    "address":"Östra Storgatan 47, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMyInujH1rS8y3q9xC9CXZQU-p2IcNNr345L8vK=s1360-w1360-h1020"
+  },
+  {
+    "name": "Gant",
+    "url": "gant.se/stores?lat=57.78261370000001&long=14.1617876&postalCode=j%C3%B6nk%C3%B6ping&radius=10.0",
+    "district": "Atollen",
+    "address":"Asecs, Kompanigatan 16, 553 05 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMmca-RBPzETOdFRviAmerY6J4Uoqb3LRwAI8Q2=s1360-w1360-h1020"
+  },
+  {
+    "name": "Gåvan",
+    "url": "gavanjonkoping.se",
+    "district": "Öster",
+    "address":"Smedjegatan 7, 553 20 Jönköping",
+    "img":"https://static.thatsup.co/content/img/place/e/l/user-photo/c9dcd059.jpg"
+  },
+  {
+    "name": "Gina Tricot",
+    "url": "ginatricot.com/se/find-store",
+    "district": "Öster",
+    "address":"Asecs. Kompanigatan 36 553 05 Jönköping",
+    "img":"https://static.bonniernews.se/bildix/api/images/8c709aba-889c-496f-a561-2dc841b8b0e1.jpeg?fit=crop&w=640"
+  },
+  {
+    "name": "Go Banana",
+    "url": "gobanana.se",
+    "district": "Väster",
+    "address":"Banarpsgatan 27 ",
+    "img":"https://static.bonniernews.se/bildix/api/images/6bf5580e-f857-5f60-bf88-b2808418ad44.jpeg?fit=crop&w=1200&h=630"
+  },
+  {
+    "name": "Godis och Tobakshörnan",
+    "url": null,
+    "district": "Öster",
+    "address":"Klostergatan 16",
+    "img":"https://fastly.4sqi.net/img/general/600x600/434782933__2j5Q8XArHYVsdo-kBtklCwedKZk-ydd-TySvBtfx8o.jpg"
+  },
+  {
+    "name": "Golden athlete",
+    "url": "goldenathlete.se/sv/butiker-2",
+    "district": "Öster",
+    "address":"Östra Storgatan 23, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipM8Zf0BrDaJB8ldnWnkSwMgL5AL3QehamQfILM0=s1360-w1360-h1020"
+  },
+  {
+    "name": "Grmawit Store",
+    "url": "grmawit.com/",
+    "district": "Väster",
+    "address":"Västra Storgatan 6, 553 15 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMyNT1Q3GnOT3DgfIwiGThOfxnOidFpLVQa_Y59=s1360-w1360-h1020"
+  },
+  {
+    "name": "Guldsmedjan Snarberg",
+    "url": "guldsmedjan-snarberg.se",
+    "district": "Väster",
+    "address":"Barnarpsgatan 28",
+    "img":"https://static.bonniernews.se/bildix/api/images/5d106a2e-f443-5702-85cc-f7e79a6d2461.jpeg?fit=crop&w=640"
+
+  },
+  {
+    "name": "Hälsokraft",
+    "url": "halsokraft.se/butiker?butik=503",
+    "district": "Öster",
+    "address":"Östra Storgatan 23, 553 21 Jönköping",
+    "img":"https://www.halsokraft.se/pub_images/large/ornskoldsvik_NY_740x450.jpg"
+  },
+  {
+    "name": "Hemköp",
+    "url": "hemkop.se/butik/4674",
+    "district": "Väster",
+    "img":"https://lh5.googleusercontent.com/p/AF1QipOksL3iWKOTPW732yrTA1kiakSASTaK1Dw2inOX",
+    "address":"553 16 Jönköping,"
+  },
+  {
+    "name": "Hemmakväll",
+    "url": "hemmakvall.se/hitta-butik/",
+    "district": "Öster",
+    "address":"Lantmätargränd 49, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPQ4i3bCkzo2mBwzfH09RBO0ncDQ1CgUPZU5dZ-=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Hemtex",
+    "url": "hemtex.se/hitta-butik/jonkoping",
+    "district": "Öster",
+    "address":"Östra Storgatan 34, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPm_bGFBGAJRouplKA-sQcu17E-DxJ_uirqsVVi=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Hi-fi Klubben",
+    "url": "hifiklubben.se/hitta-butik/jonkoping/?gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH4w2ngSDzygBKQSqHVzCSFAplyrpByCMojT6dfo-Xnjcn7P9j_jBn8aAsD0EALw_wcB",
+    "district": "Väster",
+    "address":"Västra Storgatan 4, 553 15 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPW2MfxJEcidHjJOn__G4FrHyywZryqeqE6M6jf=s1360-w1360-h1020"
+  },
+  {
+    "name": "H&M",
+    "url": "hm.com/sv_se/customer-service/shoppa-pa-hm/store-locator",
+    "district": "Öster",
+    "address":"Östra Storgatan 7-9, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNGnO1bHCckqteS0-SxvKqiZMAZx_CJDKenROKr=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "H&M Home",
+    "url": "hm.com/sv_se/customer-service/shoppa-pa-hm/store-locator",
+    "district": "Öster",
+    "address":"Kompanigatan 36, 553 05 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPED-CDe6QlkIz8drbfx4NXULNfz-HClDHdNDX8=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Indiska",
+    "url": "indiska.com/se/butiker",
+    "district": "Öster",
+    "address":"Östra Storgatan 16, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipN1SQCUKQPNCIXjYeRQlzHluiQ1Gk2VbqyLi0nW=s1360-w1360-h1020"
+  },
+  {
+    "name": "Jeansshoppen",
+    "url": "jeansshopen.se/sv/kontakt",
+    "district": "Öster",
+    "address":"Jeansshoppen",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPXgFRVI7z4SZ5RPWLIrBKXojHU9JljI_kb-akW=s1360-w1360-h1020"
+  },
+  {
+    "name": "JL Sycenter",
+    "url": "jlsycenter.se/kontakta-oss/",
+    "district": null,
+    "address":"Västra Storgatan 21, 55, 553 15 Jönköping",
+    "img":"https://fbi67.cdn.0k.se/wp-content/uploads/2017/10/slide_1.jpg"
+  },
+  {
+    "name": "Jönköpings antik och konsthandel",
+    "url": null,
+    "district": "Väster",
+    "address":"Klostergatan 8, 553 17 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipOj1X19xFX-Yl20hkcQTIiOk6uQ3sOLeuO7M8Zk=s1360-w1360-h1020"
+  },
+  {
+    "name": "Jönköpings Cigrarrimport",
+    "url": "atg.se/jonkopingscigarrimport",
+    "district": null,
+    "address":"Östra Storgatan 23, 553 21 Jönköping",
+    "img":"https://resources.mynewsdesk.com/image/upload/c_fill,dpr_auto,f_auto,g_auto,q_auto:good,w_746/qliu6kwdjld3b2ykgbmx"
+  },
+  {
+    "name": "KappAhl",
+    "url": "www.kappahl.com/sv-SE/kundservice/kundservice/hitta-butik/",
+    "district": "Öster",
+    "address":"Östra Storgatan 17, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNvJzuFhFwlaeQNQ0ofNUMzAbHlwdG-v3nGjXF7=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Karin Lund Design",
+    "url": "facebook.com/karinlunddesign/",
+    "district": null,
+    "address":"Svavelsticksgränd 29, 553 15 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNZ8aNloDCN7j7lR3GkmidzrcMnnZJlv7w6DZTg=s1360-w1360-h1020"
+  },
+  {
+    "name": "Katrin Bååths Ateljé",
+    "url": "https://katrinbaath.se/ateljen/",
+    "district": "Tändsticksområdet",
+    "address":"Tändsticksgränd 28, 553 15 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNiWHHg1Y5VLNYjyP1VelMkxHLjMKjzoalhxjmX=s1360-w1360-h1020"
+  },
+  {
+    "name": "Kicks",
+    "url": "kicks.se/butiker/jonkoping-smedjegatan",
+    "district": "Öster",
+    "address":"A6, Kompanigatan 50, 550 11 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipOKNGyV_4FMj2cAe7Wpmx8cHdn9_CzqaImHE-OZ=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Kjell & Company",
+    "url": "kjell.com/se/butiker/sodra-strandgatan-5",
+    "district": "Öster",
+    "address":"Södra Strandgatan 5, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMQK19SkjADbkr5LNOU5jV1AeZvwlC87nLXAFpS=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Klädscoopet",
+    "url": "facebook.com/Kladscoopet/",
+    "district": "Öster",
+    "address":"Östra Storgatan 42, 553 21 Jönköping",
+    "img":"data:image/jpeg;base64,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"
+  },
+  {
+    "name": "KOiJ Konsthantverk",
+    "url": "koij.se",
+    "district": "Öster",
+    "address":"Smedjegatan 22, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPzyA4kZsFtxBuBOP69Sc5b7jT6SaOr8Ummnci8=s1360-w1360-h1020"
+  },
+  {
+    "name": "Kristina Brud & Fest",
+    "url": "kristinabrud-fest.se",
+    "district": "Väster",
+    "address":"Östra Storgatan 44, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipN26G3HWEelJSXW-ErZ5UUvfkVyO-P-0s0gDNDO=s1360-w1360-h1020"
+  },
+  {
+    "name": "Kronans Apotek Atollen",
+    "url": "apoteksinfo.nu/apotek/kronans_apotek_atollen_j%C3%B6nk%C3%B6ping-1415",
+    "district": "Atollen",
+    "address":"Östra Storgatan 44, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNquzQEWKLCHzEEHu9rFKC65qmpxS5-6X3xx7Lf=s1360-w1360-h1020"
+  },
+  {
+    "name": "Kvänum Kök",
+    "url": "kvanum.com/se/showrooms/jonkoping/",
+    "district": "Öster",
+    "address":"Smedjegatan 42, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPtuyKasI_Xf-HivM3WVbH2HcjSpM3f0YUW6BQA=s1360-w1360-h1020"
+  },
+  {
+    "name": "Lagerhaus",
+    "url": "lagerhaus.se/stores",
+    "district": "Öster",
+    "address":"Östra Storgatan 20, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPWG32Q52Jp5YMLNhWpmtwMqCl_QdfVFKZp2Prj=s1360-w1360-h1020"
+  },
+  {
+    "name": "Lavér Studio",
+    "url": "laverstudio.com/",
+    "district": null,
+    "address":"Västra Storgatan 6, 553 15 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPuG9lqFL-pvjiq-EWsnOQHYL6zLPIVuVBnpd-0=s1360-w1360-h1020"
+  },
+  {
+    "name": "Life Naturlig Hälsa",
+    "url": "https://www.lifebutiken.se/stores",
+    "district": "Väster",
+    "address":"Barnarpsgatan 17, 553 16 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipP7f_CGNLIruner5EoUeN6A9yb_jNepAsOFQB-5=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Lilla Violen",
+    "url": "lillaviolen.com/",
+    "district": "Väster",
+    "address": "Barnarpsgatan 21, 553 16 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipM2jcBBPnCdnLTElUkwOdf6XgA_6NNNU9u4zvk_=s1360-w1360-h1020"
+  },
+  {
+    "name": "Lindex",
+    "url": "lindex.com/se/hitta-din-butik?location=57.756066%2C14.188254&storeId=002&zoom=11",
+    "district": "Öster",
+    "address":"Kompanigatan 3, 553 05 Jönköping",
+    "img":"https://lh5.googleusercontent.com/p/AF1QipNk8D0s-got586fw5I0KNfU9ELYNLv-8TKcanH7=w2800-h1866-n-k-no"
+  },
+  {
+    "name": "Livspotential Kroppsterapi",
+    "url": "facebook.com/Livspotential/",
+    "district": null,
+    "address":"Västra Storgatan 43",
+    "img":"data:image/jpeg;base64,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"
+  },
+  {
+    "name": "Lloyd Tabing Art Gallery",
+    "url": "lloydtabingart.com/",
+    "district": "Tändsticksområdet",
+    "address":"Tändsticksgränd 5, 553 15 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMo0dE1gzxl1o649ahn2N8ylq0_8uKspVHoC8O8=s1360-w1360-h1020"
+  },
+  {
+    "name": "Macforum",
+    "url": "macforum.se/butiker/forum-jonkoping",
+    "district": "Öster",
+    "address":"Östra Hamngatan 16",
+    "img":"https://res.cloudinary.com/dreuasyzu/image/upload/f_auto/q_auto/c_scale,w_auto,dpr_auto/v1639736509/bayfy2axgqgsstwbjcdy.jpg"
+  },
+  {
+    "name": "MarQet",
+    "url": "mq.se/butiker/?gclid=Cj0KCQjwteOaBhDuARIsADBqRejM-U3YQY9vh4F6gSXC2LnJWPVGKJ7CGfiCl1tYkREGUR37cTWMNcoaAjFGEALw_wcB",
+    "district": "Öster",
+    "address":"Lantmätargränd 4, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNw9EtryjL68AMbTy2iOI2uNSN8FtmjqixCZvdH=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Moderna Smycken",
+    "url": "klockorochsmycken.se/",
+    "district": "Öster",
+    "address": "Östra Storgatan 5, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNnHtIpPb5_EE4thyugY_xwthpFDCvzdOwkaXBR=s1360-w1360-h1020"
+  },
+  {
+    "name": "Naturkompaniet",
+    "url": "murphysbar.se/sv/",
+    "district": "Öster",
+    "address": "Östra Storgatan 24, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPIOPMwv8o3eVOTXTGPTevL_6xLRYtAG-RIvwhR=s1360-w1360-h1020"
+  },
+  {
+    "name": "Newhouse",
+    "url": "newhouse.se/newhouse/vara-butiker",
+    "district": "Atollen",
+    "address":"Lantmätargränd 15, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPHRtADVuF1GXJlkvr-cqsC1uKL_K07GtCnzAc=s1360-w1360-h1020"
+  },
+  {
+    "name": "New Yorker",
+    "url": "newyorker.de/se/stores/",
+    "district": "Öster",
+    "address": "Gallerian, Östra Storgatan 7-9 Sesam, 550 09 Jönköping",
+    "img": "https://lh3.googleusercontent.com/p/AF1QipNH5a0Mnib0J35BC98XJZUOg74SwRjnPglyiyIJ=s1360-w1360-h1020"
+  },
+  {
+    "name": "Nilson Shoes",
+    "url": "dinsko.se/stores",
+    "district": "Öster",
+    "address":"Kompanigatan 13, 553 05 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMp5tonMOcdH5RG8s9y94axbTLi-Um_8jMptXKI=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Noa Noa",
+    "url": "httpsfacebook.com/Noa-Noa-J%C3%B6nk%C3%B6ping-446212958766553/",
+    "district": "Öster",
+    "address":"Smedjegatan 17, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNzLxQcSXYRginNWxi5nFTB1v9clnlHGUNg9i0C=s1360-w1360-h1020"
+  },
+  {
+    "name": "Nordisk Möbelkonst",
+    "url": "nordiskmobelkonst.se/",
+    "district": "Öster",
+    "address":"Östra Storgatan 37, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMMJk9eWqI0G0asMCmQtIfpbfL01N7mHpj29hSq=s1360-w1360-h1020"
+  },
+  {
+    "name": "Normal",
+    "url": "normal.se/hitta-butik/",
+    "district": "Öster",
+    "address":"Östra Storgatan 19B, 553 20 Jönköping",
+    "img": "https://lh3.googleusercontent.com/p/AF1QipMg5zr5RLa2Ih1HnUJIkDdtWJEzjug_kyqp6DMH=s1360-w1360-h1020"
+  },
+  {
+    "name": "Nya Musik",
+    "url": "nyamusik.se/",
+    "district": "Väster",
+    "address":"Oxtorgsgatan 9, 553 16 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipP4sQU85KjxfuwDO7kTOK4qnggfQ3pZgLYdKw-9=s1360-w1360-h1020"
+  },
+  {
+    "name": "Once for girls",
+    "url": "oncestore.se/",
+    "district": "Öster",
+    "address":"Oxtorgsgatan 9, 553 16 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipP4sQU85KjxfuwDO7kTOK4qnggfQ3pZgLYdKw-9=s1360-w1360-h1020"
+  },
+  {
+    "name": "Önska",
+    "url": "onska.se/vara-butiker/",
+    "district": "Öster",
+    "address":"Östra Storgatan 27, 553 21 Jönköping",
+    "img":"data:image/jpeg;base64,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"
+  },
+  {
+    "name": "Optiker Jahnke",
+    "url": "jahnke.se/",
+    "district": "Öster",
+    "address":"Östra Storgatan 6, 553 21 Jönköping",
+    "img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QAqRXhpZgAASUkqAAgAAAABADEBAgAHAAAAGgAAAAAAAABHb29nbGUAAP/bAIQAAwICCggICAoKCAgKCggICggICAoKCAgICAgICgoICAoICggKCAgICAgICAoICggICggKCgoKCg0NCgoNCggKCAEDBAQGBQYKBgYKDQ0KDQ0NDw0NDQ0NDQ0NDQ0PDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0N/8AAEQgAoAEcAwERAAIRAQMRAf/EAB0AAAEDBQEAAAAAAAAAAAAAAAEABwgCAwQFBgn/xABMEAACAQMCAgcDBwgEDQUAAAABAgMABBESIQUxBgcTIkFRYQhxgRQjMkKRobEkM2JygsHR8BVSZOEJJVNlc3R1kqKjsrO0JjVDY4P/xAAbAQACAwEBAQAAAAAAAAAAAAAAAQIEBQMGB//EADcRAAIBAgMECAQGAgMBAAAAAAABAgMRBCExEkFRcQUiYYGRscHwEzKh0TNCUnLh8WKyFCPCJP/aAAwDAQACEQMRAD8A9Gs1A5BoARoAVAAFABFACBoAINACoAWKABmgAZoARoEc/wBYEWrh18PO1mH2xtVmh865oqYnOlLk/I8hbuc9oPeD6cxXqjxt8yd3UjAX4Tw4DOfkso25nDxZqlW0l3ep1hG+yuyX/k3fHujJUEgch6g+PP4+vwrNhV2XmdtnZOWtCWcKwwcgDfY/yajVavcqTjtMc/ote9kunTnf6XmfHmK522i9Qm6eTRa6TTSO2xABbA5j+I9/p8KnZRIVpSlob3gV6xcgnOcE8tsbY2wNseXhUdmLzO1Ocr2OZ9qC2xweAeV/GfccPyqxhfxHyL1RWpR/c/JkcOgndvOHH/OFoftuI60Knyvk/IrLJrmvNHoJKe836x/GvNnpmKgQQaADQANVAAL0rALVRYBFqLADNKwBpACgAZoJXDQMumgaADQBUaCJTigYaAEaADQAsUAKgAigAUAI0AUk0yLNV0qi1Wd0POCQfajCu9J2muaK9fOnLk/I8dLtvnB8D+Br1h4laE/vZ54ho4Zw9iPow3C49zx/wrPxS6su71LlGWy4yf8Al6HQ9JOkzDXso1DI2+qTjbl/Oaw6aUnmSnUu8zmZeEkODnfK6vDYHJ+PlXWcTnsWzHFMYSNe9tpBz+Gc7j+Fc4t7i47JHP3PFQzEZ+zcbbeHn+6u7V0UW02O50G6OqqajuTjBPp/f7q4VN1jdwlFWuzg/a7hA4ShHheQn7SR+/FWcF875HXGJKEf3ejIr9ETi64f/tC1/wDIStWfyvk/IzVu5rzPQef6TfrH8a82emZSTQIHaUAAvQAtdACDUAAGgA6qADmgAio2AVIA0ADFBK5eNJDBTGxE0CFQAjQAaAFQAaAFQAaAAaABmgCkigiYnFUzBOPONh/wmu1P5kcavyPkeNE5Ose4fcK9ezwsH1VyRO/qCl/xLZN+jd/cwP7qoYjPaXYvUtx+WL/d5I111xPWdJfkSRqOdhyxn1Pv99YKi6ehmynmZXD4HllT5xj3lwC3IDfOPSukZ31LFGblJZjg9KLCQxKoZyqeWBs253GM7/EedS20tDWqJtG/4F0SCouRvoBO3PPn4/Gp/GVrDhh97O96NcWUKFBxjH31zlG+ZqUZqK2Rvva8UDgzHn+VQb+WZB+PKu2D/E7h45L4a/d9yJXRmcfKLH0vrb7p0rWno+T8jJTyXNHoZdy99/1j+NeZR6hsxjPTsK4O2osFyoSUWC5UHpBcIagZUGoAOaADQBVmgBZpWAOaQANAF7NI6BFAhUAACgCqgAUCCDQIJoJAoANACzQBSaAKTQJlucZSQfo/uNdYao41PlZ4y8RTErDyJHuxt+6vYNng4aLkTt9nhAeC2Q8Nd4p92WzWfX/NyRepW2Y85eRicb6uSy6lbG+R6ePn4fGsxyQTwqlmjmOHM1vPHljkMM8/A86ezdFCMHSlmSLsuOiRM4zgYOceI9Oe3iKrNZmyqt0UcX6VGJFHgygKc/D37Hnjb02pKndlhTysZ3QCYvlieRx78E58SPXwNdaktnI6Us2aX2tJj/Qc2fq3VuM8sZljxz2+t/Jrpg/xe5nXFO9LP9SIfdGJ83NmuDq+W2xA9BMmf4+W3xrYn8r5My1pbtR6K8Ql77/rH8a80tD1FzHM1MCntaAK1moAuLLSAurJSsO5WGpDuVhqBhBoAq1UAHVQAs0AI0AZINQOos0EWCgYQKBBFAAFBEIoAVBIVAhCgYqAAaABTsRYGHdf3V0jqQlozxr6QRYuph5TOv2Mwr2G48DHcTf9mvvcItR5XV0PtBNZ+I/NyXmXad2or/J+Q6H9DMyHb4chv++sNyNSFOVhtLzo4BcjUAO9vqG2c53/AHHz8eddYVFoU69NM7vhticY1EBcjnhjgHlnw8M/3VzlOKeZCNJmxfoiSVJk18mx9UYwfHKknYHbz23NTVZbi0qDWrO16LWAyScZbc45D3eAHuqvOTbL1GGZyHX5xe0ls3tZJVGuaNz3sDMTLIMYIZu8oB08+WTuKsUNqD2izUpqotntv4EbJks0uLcJOxdJVnWIhhlYSJHKmX6Kqq6dasFUHffObXxm20H/ABUlqdf0t9pG7lkdoDaAMSUjZ8b8923B25ka/wAM5s5xiadOg5Gp4T7Yk9rKicQsWjWRtKSI2qOTG57N8BWbG+glGI5IedQjNPNZr6+BKdHZyd0+3TxJKdE+m8N9Ck0EgdH5EcwRsQQcEMp2IOCDzArqmnmipJOLszeJNTsR2i/HLUbErl9HoAvK9JgXFaokrlwGgYQaAKgaAEDQAaAMqoExYoAQFACAoAJoEKgAGgQs0DQjQAc0DFQAKABmmiAl5N7qmtRS0Z469Kk/LbkeV1MPskb+FevWi5HgkTO9lWcf0ZHk/RvJvvjJqliVk/2+pcoNZX/V6Mf7h18pTkOdeZdz0MZJo0nFbFJD9EZzz8arRjJZnKpsvI2N7wkmJCAOWDgqCCNgdsn3+tTnJtXIuGWRliIKF8dgMbeX85O9KJPQ5jpj00FtpjQjW6l3OcLHEoOWkPJVPL1AOAcirsOLLVKjwIo8c6QTcUuZFsmaRsntLhlyh8li3bs1/YTOAcDZRyq4hQ1Zt0MK56I67g3s5uYy09we2YHvDOEBIO2cc8D7BtsKznj+BsQ6OVsxu+lXs4XEbsYZ/UncMx3wcnfIPgNI9K4rpGL+Y6PouX5GNrx2a5sB2N+jXNnMQs6MzMAM/TjbJMU0bAOkkeh1dQwcHnZpThVd6TtJfX7lStRqUcqyvF7+B2PVb1iXPAOIJE8hmtblVmtbnkl7aOoKdtuVjvoEyC4CrII3He0nsrHxE1twyt80eD7Ozy3mbKl+Sbv+mXEn/wAI40k0aSIcq6hlzz38x4HzG2PhVuMlJXRlSi4uzNnHNUiJlRSUmjqZSNSAuhqTAuBqiNFStQSK1NAB1UAEGgDMNQOlwA0CKqAAKBCNABoBgxQIQoGKgYTQAqBAxQRATTAScm91TRGWjPHzpcP8YXnpeXA/5rivX7lyR4OLzfN+ZLz2Vf8A2zH9sf74mqrX9PVFimv9vRjvWqsp5tjPLwrHcUaMW0bq3ulQZI571VlBvItRkt5RxbpCvIAnxxtseXv+GaisPkRqV1uL8t7iPWRnujT8cAD9o7b/AIZqGwolyhHbzZHPrz4wWieIDU1zMI3I5sqYMhc4Pc76RKgU41HA8uE5524anosPSyO86rehUdnboqDBIyTtnz54z91edr1nKR6yhRUUraHcGIGqzuXTXX1nt4b7YrhNNHaDTGd63OhqTQSKygkqfUnOTyPPOa4wqSpTUkXNiNWDjLRjPW/RjtOj9szd9+GTzwuGxvbCd2AzjufJlaN43GCu+5DMG9Eq+3VuvzJPvtn4vzPEV8P8JW4P6bvfYP17M3T0CP5I7csvaueUkOcY9GRu4ynlIHG+VLXcPWtLYftmViaN1tr3wJBo1ae0ZlrGZBJRcDNjagDIVqYFYekAQ1IZUGpEisNQBVmgDOxUDoAUCKqABQIOaAAaaIioGGkSFQAhQRuKgYaBFNNIQY/H3VNCeh5AdNo8cSv/AEv7ke75+QV6/cuS8jwENZful/syW/smp+Qkf2wf9tqq1vT7F2jr3ryY/hhC5zVBo1FbeaDjvSmCEHW6j3muDTbyHKcILNmjtOOxXEmEww5tg+AP3auXhuak04rMqbUakrLQ7PpDdBIA5OFVGkPuUYX4Zb7azaztmejwkdqy4siF1ldL1j4nwW3mICzzSTyliERFCtJqlJ2CArDFliMsV33rJip1I1JRTbXBXPVRlTpygpNJNvV23DrcT9oK0hbCabgKcForiyGMbNoSWeOWUqCDiNDnw1HY01gav54tc0/sascXSl8k4u3CUX6nS9Aet6y4oCbafLKdLwyLJDOhzjeOZUYgnYMAVPgTUKuFlDUsU6yksjrZIu6TttVB02WVNXG06f3kYVg0sYycYZlA+8j99VJ05PQ0KdRIabq249DrvLZiCJiJcA51LOvYyafM6kjIA8Tnzq5TUlFS4GLj0pSdt6Gz6D9LpbK7uLV+7Nw+USxMuyz27fRkQD6DNGuXx3SUBAQtJnYrQuo1Y6P6Ne/A87Tebpy3fVE8+r3pct7bRzL9Ze+B9VgN/geYrRoVfiRu9d5k16Xw5dm4663kqwVzYRvUkKxeD07iK1epCLgegCoNUbAXFakSuVaqBmxFQOoaAFmggIGgYSaCIM0xCFACpEw0ERUALNAgYoAGakgDH4+6pIT0PIjp+McU4j6cRuv/ACZK9etFyXkjwENZful/syV3siv+SyDyuk+9GBqpV07i/SWfevUerpnxYxg5BPj8arxZZq5EcesJzNnOdzvzBFShqZWJ60bHY9V6CNW0qARDkjmToZdXnuF3PLcjyNQrK5YwnV04eQ6fS2xL2kEZ+siJJ67KTuPNgN/u515rHSsj3XRseO5EMOvpZ26Q8JjglaIOsqSvH3ZkjKLpCON0URzB3xpzpXOcYqr0bW+HCpPfly3vNbzZxuGVV04vtzWqWSdnuOp63uhvFlnEXDmltbOGFOxW2WAtJKhOsS9orlI1XTp0q4k7+rcKkrwXwKm1LEtuTbzbfoWsY8RRhGGDilFWySS7s8rWNZ0z6HyRcGubx2KcR4fbfKoeJRRpbzyzRxmXsZhGkcdyrSaoGR49J1B1RH0sJXhCrsxzpt6Z5cr5rx55Hb/s+BtzWzVSzatr5Nc13Gp61+k3FraaztzxSbTfQPPOjQQdtbxqoLiCSMKmtXdYwssUmBqYk6dLcoSozUpqmlZpJbTs2763ztZPRk261GUabqNtqTu4xTSVr2tlvSzTGetJLP5QzjhM10VV3e4muIppiiRiaR44rqOS11CORWKl492CnB7taiw2JlSupxXYlZd7WfmY7x2GhX2HCbfFu/gnl5GN024ylhLa8QtJwbSaNmiiEOhmLLreLTEIookmjDNq7ONYpE7yNrfFLC01W26NZNTWrvfsvnwfbmmXMbN0lCrRacHorW7bZcV2ZcB4eIcITitva8VtmV5LdTHPp37ezclWzgg67e4ALlh3V7cYyTozetRcqE+ff/RB2napHePT7NPHXt5Gtico64U88hWOk78yVC/D7+uGlapz1K2JjennuJLW0lbBjGxhkqSAyVkpiZWJKdyJcD1IC4jUAVqaQFQNRJm3qB1EaCLYqBCoAJNMiAVIYqVgDmiwCFJiCKQwA0AKmIBpgKLmfcaYnoeR/WGmOK8T/wBo3f8A5Elew/KuS8keAp6y/dP/AGkSq9jPHZyj+0RnH7P99U6/y9zNLD/N3okJ0xsgTuKz1J7JoVYraG+6SdDoXTIUZG/xFKMmmcqlKLRzvQ+27OaML3sEiRTyKsdJBxucDJY52GP0atTd4lGlHZmrDrdIFVo4znuldY/Uxvn1Cbe/HrXkOknlY990Znmuwg1wvjScR6YCOQ9x7a8gOklWBkjYZjI3V1RGw3MaUIxVSinDD7e/aT/vxPQytKsqe5Ra73/RKPiE9xFpEls02Fw00PZFJMbajHJJHJFI/wBIoolRfCU7VUbje6dlwafon73GpGLtZrPiretjn5+g83FJoElgFvZwyJcvCxR57q4hkElus2gtFDbQyqtx2aPJJPKseoxJHLHcdo1cmoZyeV9Ek8nbe29Lu1lfJ3uucoZpzyis7attcbZJLXV3dr20fB+03wDTdWlwAXNuTGyJ9Ps5hpYDBGlgwWVc7Epp8RValPZlOm3ZNeDWj80+d9x3qQ24wqRV2m7re4yyaX0fdYp6P2dndW4Y9jJp3w6xuY38QVkUvE45FW0spyCM8pzrVIR3r15dhKFGE3ua+vffRkcPaB4VG1pKYVAt4CURgPmpJ5SFIgbkywxlldk1Jrk0BtcUyrcwEpRqR2vmk+9JXefN8c7K9rNMzukKcZU5KPyxVucnllyV72yu7Xumjb+xt0i7GLsM6jjvwH/5EI0SFM7agm7pzKYOCWTT06UjeXxEZOEVlsMk90A4N2F9GgzpjLBSc50EKIwee4XI94NVsJK80yOJVoMf+KSt4wTPgmpoDLSSpCZdD0ES4j1JAXlamBWrUAVigDdiuJ2FigQqYhZp2AVDELFAxCgQQKYCFJgHNIYqQgVJAUmmAoTufcaBPQ8lutVMcX4oP84XP/ekNeui+quS8jwiVpS/dL/ZknfYzbuy/wCsR/gP41VxHy+JeofP3olpxLgvaKax1M2509obDjVk0eQc43wa7FF3WTNJwrhREpfG22jz8NfLOcqSuPHVipuWVjjGHX2vA6TpixW1k3yywEHG5HgceAOCceXiPCvI9IyUm7cD3vRsdlRT4kBeo+0KdLYkcYcRXUrfraW2yd8rHOuc4OSdsEZU1fCbS4r34o16Ltitl70/fgyfDXZKgYxnx9axbvQ3Mk7mDxm2TSuov826zBQzJreM6o86SrNhvq8jyIPKu8Xs7nkEeu3ZJ3y00Gb6QdHsXkjvITHcLCzBjI4zBqZVQM3Zx9521lUDuAoZjoQLwqSVre8y3CFs7Z6a8Ow3XGuA2zKG7KJjjYsiOR7iwyMelUZzaVk2W4RTd5JMiv7WvEWa2hiVlVdZds8ikY3AA9SOeAACa2+iPxG3w+rMbpbOnZZZ58kNN1T8Zw87IdLRuGRhgEPGB3gfJtOD54XIIBFbWNi4wVzyuHmpzdj0O6KSB3tn5FoUOeeMqRg88DIOPLGnlpAxcHlNHbF/Kx14ZK9IeeZnwSVJCM6JqYF4NQRLqNQIvo1TAvKaAKgf52oA39cTqKmADTsIRpgDNRC4aaEKmAqACKACKQAzRYAE0wBQAITv8DTQnoeT3XUmnjXFR/b7j75GP769XD5I8keFatUmv8pebJG+xbNtKPKeI/8ASKr4hdUuYd9fvXmiZN5xIKrHI2rCUW2eilNJMafpT0+gwcsP52/k1YjF3MurXhbNlzozJ2i9oPohMjljUSQOXiAvPfkKrYubhCy1ZdwEFUmpbl57jn+NdJBritzgm7W5UegSMEH9qQMg8SfPevGyq3ey96fp/J7uFOy2luaIWdZHTCPhfSHhnES2ITM8F0wAwqSa7aRj5LH2iSseeIRgYbfVwkHWoTpLW11zWf8AXMjWqfCrwqPTR8n7+hOy0vVljUg5VhkMpyCDuNJB5HzFYyN16nB9NegVuW1lbhmbfHb3GST+k0mQPIcvdyqxKs7aGphcRJR2Ha3h9ENJP0C0zK0M93CObqHSWNvRxOsoYH7ueQcY4TxCt1op932sWaslPJX8fvc6/idwqW4Uvlh+cYDAGM+8At44wMjkARWVJJu6OMG07EF/ax6fmW5jto3OmOImdRjBMjK0Sk4yCqpq05GQ4zkYr2vQuG2YOrJZt9Xu199h5Dp3FtyVCLyt1u/RepqOo6IyyXRHinbL47dsR5eCyL9nrt36TygufoZfR/zPl6k+Iukws0t3b83FNJbTH+rsZID6KGR05Y3Feaotxk2t2Zq147SV949vBuLrKisrAhhkEciPT+dvsr01Oopq6PN1Kbg7M3dvJXU4GwhepAZCtQBeRqCJeRqkhF9WpgXFNAHRYridgGmhWBmpALFIACkAgKaExE0xBoAIoAVIBUICnNMBZoAEJ3+B/CmhPQ8qOv5NPHeKj+2SH7Tn99eqpfhx5I8RU/Fn+5+bHu9kS5IjvCvMFCD6grjFQqLRe950i2tpr3oOTx3jV2zSL2p3OMY/Dy2NclCO4pTrVM1c1HAer2SVlDuSGzknkPMn+f7h2imcoU5VGlce3hnBVgtymeWdR8Ttp8T4gE+O5rzHSE7dZ8Ge/wCiqWzHZXFfQZzp/e9iTcgAyviCyU8kUEM0h/RXGQeZY+OuvESye29+nce8pK/UWi15sg77Q83ylpVBCYmaMcuzSfs3kc5O4Gto13PdG/JWNek6PlsWl2J917GZjY7WXba/aPT7GvWVPFZmJmZ4YmjEULfTt4XhjYRKSAQEk1gIxIQYVdKqqrWxsVGrddt+3N5+FjUwCc6Oe7TsyWXjckjxXrKtiANYBPMMQuAOec77VTbutDVpQtvGh6XdclrFqAkU+gwcnw+/xqs6E5vQs1KsIbxquLdYst3rEalEAyXPMjwCry+LfZXVUY09fAqqrKp8unEhLes011damLM0kjFmJJ1KSrbnyJwPABRjA2r6DC0KceFkfO615VJX4vXmOh1GcT+RyWkkqkRzTS2kzYICK+lk1cxhbhEUk/RLFThsrWbjI/Fc4LWyku7+CzhpfD2ZvS7T5P8Akm3w+aK8imtpT83dI1pOcn5m5TASTI3UOyx3KsMakZsZwTXk5N05qSPQZTi4mN1P9N5uG3j8OvNWkuTbzNjB30gZ5B1yFdeTZRxs5q7QqqLy+VvTg/sylXpba7Vv4r7olLY3WQD6fD4Vup7zAazNtbyVMgZiNQBeQ0CLqvUiJfR6YF0PQB0pNcTqUmpDAaVwCDQIWaQCqREWaYBoAWaAFSABpgCgYDQIUP0h8fwoA8sfaLX/AB/xT/Wz94U/vr1VH8OPI8PV/Gn+5jy+xycx3w8uyPwLf3VCrlY6U9JcvVD5cV4RiYnGzVwjIqVadpXNpwy0Idcbfw8aU5ZHShB7SNxxhyypHn6f0j5KNz9iAn1O3lXiOkp7dRU1pv8AU+l9GU9iltvX3YZXrBuVlaaVtooVaOPyCR/nmHoCNHvRj9avPVuvLLkemodSOfMhHJb/ACqwu5mPK9guX2zgXR0ld/AHCb8vuPoI9Sqor9LXgZr61Nv/ACT8TqfZFv8AE00LNuIhGw5fOxOzyEZ8xcL4/VqPSKSaktHn3PTyNLol3jKPDzV7+ZJfpP0TimTTJEG22bkfXcb1nKVjV2L5DDca6qokkyoO/IElvx8fs/fXR1nYj/xo3vYzrDgeiM7c9v7/AF8z9g9c+dS7L9OkoxIp8Vlt7K9uFkTU0DsI1BC653nluDqbDFYltpUhcgFskaNJBdPdUdurRhLis+SSXmro+cYqMadaceDy53v5ZM2F/wAV19qpBkju0S4gjXKKViDrNbRKgwjiEuqoMH5QkDkEuWkIRt2NNpvnazfY3Z8r8Dg3d8U80uWq7s14HedBusqRGQiQStoChydMd/bj83q/yVxGPoMc6SWjOcJWdi8Mnd2suH6X9v7LuGrtWW/zXo/6JF2fSGLikA1H52PdGcASIy8o7gfVZG+hJ9HGAcYGfMy2qTaehuK00Si4HcZjj/UGffj+TXrqbvFcjydRWk+Z0NrNXZHE2ET0xF9TTQMuq1SIF9GoAuhqAOozXI7AFSANRAVOwCpACmiIhTEEGgBZoAGaAATQAiaAATQAIT3h/PhQB5de0ouOkPFR/aQftijb99erofhR5Hha7Xx5r/L0Q73sb7NfD/6YT/xsNvurnW3czvR1lyJdy8AD4z4bg+VY3xbM1JYZTWZX/QaxKzkgYGSTUKmIsrvQsUMGk7LU47pDxHSssg5lRHEPNpSAvwzpz5DPrXjK885VOOnee4oQsow4a9xFj2mOmXY2wtYjl5F0nH+SGRk+kkoVByOnURnO/KhFN3fv2i5OTzGXh6vrm14FdSyW04ilte0EuhtJaJ45oDnBO7RjDAEZOATmrsG54hTt1W7X3W3kZwccO1vs3233HHdVPTCLhvE7syyhFExn1tkqsdw25JAwqau5qPdUadxkVdxFCpiKUJQV3a3gGBxNPDVpxqOybvfmSui67uHSpleJWLDG/wCU25wfUa9j78VlPCV1k4S8Geg/5eHbyqR8UN/0r69+EwhmbiVocHdYpEmf3aYO0c5921CwdaT2dlp9uXnYcukcNBXc13Z+VyOnWd7X3bBorFBEp2+Uy6NflmOPLKmR3g8hY+BjBGRt4ToamntVpJv9KeXe/t4nnMb09OXVw8Wl+prPuW7dmR/uZWfEh1kaivbsCe0l+m+XOQ8ne1HJLacE7Yr1NkuqvDs5cDyXWs5u+bzfa883xO16FdL4fzVzlYydWRqKh8EB0KB5YJcd1mVZ45EJR4TiNoqNWjO+1DX04Pc14NPNPjYhVhbZnpx7ePY/G+jR3vBuiAZz2PELCZgdSyLNDG8md/yq2lbSHfB+cgkJY4LrksRSqS/XGS5p5cn6NFqFPO8JJ96Xin6d45PAbC/TEkdtMkyAAj6ccqr4dpEZY9QU9zW+47h1ZyMKtSpt22lby8bd5rUqk7Zp38/C5NXqV6UNcWMbSKVdTpdGBRl8VBU4Zdu6AQPo+VWMFNuGy9U7fYzsbC09paNDn2k1aSM1m0hepCMtWoAvKa6IgXkNMC9UbAdVXM6ipiDSsFwUxgpWEIUxCzQAc0ADNAANAANAAoARoAUP0h76BM8y/acs/wD1FxX1miPvzbQV6mj+FDl6s8PVX/fV/d/5iOl7I0OJbz1tYsfCWQVzq6Lmd6S6z/b6k6LHgDMAT3RjO/P7Of24rzkpWZ6qFBtK+RrekPBfqSYeNh6ruOYOD6hh7m9Ki1GcbNFiKdJ3i8ziON8GjeIgoR8nkIYISuwTusOe5icMBuNe1cZ4SjUVpR8MixHE1abvF+PviMdx72boPlc11PNJcQgpLFbBe+cYVUdlyGhjK50IoZ2wSRyai8AoaO8eHmbGHxiqtRlk3v3dmv3N30V647K/kuLdJoJJLcBZIAynEbDChk8BzQqRgEEeFDj1btcjZ2LS2IvNWut696kQusLqZ4Tw3j3aX8d4/D7u1leC3t8qiaSWuIZnR1maJMpJbpEysuNs9mrLp4GTnTcFk0/bPO9K0XRn8RfK1nz4fW/kOx1Y9a3QjtI0tuH2KSnCx9rw2QysTyAkuIXZmY/pkk1eeHq65eJiPEW325W9B5umHXxwLhSRm4SK3EgDIgsWMmk5weziiaRVOk4YqAfPO1KnRnP5fMhOso/M82Npx326+i+n8y9wMHKjhpAOOYzcRxr9pxXT4FR/2HxLfm+v2Oe6A9d/COPm54fbcJjt4MG4NlLbWyx3AYhJpkS3Lxq+sjUch+8DnfbDx8K1KaqJ5ce3+j2nRM6GIoOm23NN66Wbvv1zZBP2hOqn+h+LXFugYQnE9rqJJ+Ty5KrqO7GJw8OWJJ0AkknNb+Dr/HpKb10fM8z0jh1h6zivlea9V3eVhu2h1eAz+Pp9nL7Kv8jIvYz+ETmI6o3aJxyeMlGG+Mgpj7abipK0s125kHOSd03fn6kg+qz2r7/h5XXctcRAhWSYtIVX6p1tqmGok5JaUDGBHuucqt0dBvapdWXZo+a08LFujjp2tU6y7de56+NyfvVR11W/EokdGCswGUJGzEA4JG3iB4g5G/eUHG+K4T+HVVpfR8jTdJTj8SnnH6rmOra3QIByMEbHmCDyx6VaKhsIpKYGUj1Miy8j1IReBoA66uRMNACxQBSaAKc0AIGgAZoAOaAATQACaABQAhQAqABF9JffQJnnP7VcQHSK/wA/W7Fv+REv7uVemw/4Ufe88biF/wDRPmv9YkvvZY6nf6NtVuJl/KblFLBtvksWSyLpO3aHVrkbYrso2BJxcViHUexHTzPV4TCxpR2mutx4di9ePKw+8nGxq0+n938Ptqhsl7aOP6TcWLRrJviN++PRSUlz+wWYD0FdUrZHN5+/A19za5fPhNH2Z8u1iy6f76FgfQLTDVHFWvER2CHc6e1hPmRHq29+bfHvNRbzC3v3zI4+0V0OcRJxK2SGLiJljftIwIwYVXCW87AD5QkhEiuWDaWcsuNCmqtSCTT/AC7/ALrtPQdH4hu8N9uq97tuvw4cBnuv7rysOLdHY2JeO/jm0Nb6GMqS9+ObWcCMJCokOvUMtGAMk4q3hqbjJZc3xW5lXpCtComk9bWT/K96f1IX9E+kZt54JhzikWQc8Fo2DYbBBwcYPLY1uo8pUg/B3H/6+utb+mAkzlSpUdmNwI0GcIq5IQISVIGN88yaUIqEdlFScpTneQwVrYSS7QwzSruAYo5JQSTv+bVuWMHHnSlUjHVpd6NKGGqzzUZPudh7/Z+v24dxDh00izQjsZ45HdHjAMrJpjYSBCQRE5x4ELyyucrHyhUp2TT00z4m70NCpSryc4tLTNNfwSF61uoyfpdxHhfYv2VnAk4ur3SHEfa9m8ccIJAkmkED4G6xghmBBVZKXRU/hxm3xVi/06ot0482/oPPwH2BOj9lhzYNdMq9mPlMss6yyban7JmEAbI0rhAB3jyrSdeb3nnUktEkbi99jbgkiFW4LYCSQavmkNuIl5ai8JRwi4wuCGkbJ2+rFVpreP3mk/Mjh1u/4OtE1Nwe4leRUIezuWBhbK/UnA1o+SHWKQTFiFyUHfFmGLf5/ocZUYPRWf08PtkR76puk9zwa9aG4ikhZbgxT28oKtGNLF8gkqVOoMHXKMDncMhar0jh44mndapXT9Cxg6ssPVSejefDmelfVhxVTAsanuxgdmPKJu8gH6Kg4UeC6awsFWc47MtUaGLoqErx0Y4UEtaVzPsZsT1NMizJRqmRLwNAHZFq5EynVQSAWoELVQIpJoABagBZoAWaAETQAtVAAzQAgaAEWoAUP0l94oEyKvG+qwX3TK5mmidrWxgt55iE7RJJyoFvEy4YsO40rqoYgIobAcZ2HW2MOktXfwMSjhnUxkpv5VbvlZW8NeN9nvlFBcAaNLakYEHByBt5NkjHIoDtn6O1Y6W89DJ2yLVy+AjE7qdDn46cny+q1TObLN3FlpFI2lXtAPMrhJF+I0/aaRJms4CxZGjJy8LAKfMx4aM/tx6c+Z1VJkUc3x7hojZVXZJ5+0T/APRZnkB9Q5bI9a5PU6br+9w1XSbhS3NuzTNpW2gaNNi2l37RnkVRnMgCRxqcFgGlUfTIMpK6ceJ0pVPhzUluZ509dVtD8od01xMdXypRgq00REcgeN8JqidTG0ilWBbBLADR2wbklsS3ad5Y6UUNtTg9Vn/QyHGOH9kUYcnG48UlXaRTyO2Q65AJR1yM6saUW80/a3P3vMaSTzJM+xZx7o8nyo8ZWH5THIJLM3TfknYlFDaVc/J/lCzKW1MvaFGGk4DAUsXKokrJtX/Lr3+7Gv0bTjd2lGL4ysn3X+tiVnGvbM6P27RJHeptyEEMssYHILmGMqBvtWHLC1pO6g+/LzPTxxFCKcJVIu/B38jc9FunFt0kbsbF1njl/PyNGWihiyQzShgMFtLLGjAa3BxsrleX/GntbMk1xJSxVKlS+JdPglvfvUkl0S6PRQQW8MQ0LEnIDGZNOXZv0u/kknmQK1oQUI7MdDxlapKrNzlq/djYMoyZCO7H3Y1/rE93b9Jj3R8fOpnJK5j8RjZEI2Mszb+QbHdH+jhXf1x5tQDNRfWpjVIY20vIC7y4BaOIHMkhzkdrIThc57xzghCKiySXEiB7dfU5Fd2RvLSBjecPRnllGp2ltWHzyXEjMWklRPno1USSqAQNKvg2qE2naWjIVI7SfHd74ep1HUB0l1LACe98lgZx+siqPMchg7kd3x8fLUepVfN+Zu1uvSXGy8iRFvLmtoxjOgkppisZsb10TINF9WqdyJ2hauRMpzQAs0AU5oGUlqBCzQANVArh1UCFmgaFmgYM0AHVQACaADEe8vvH400RZyXH5jbyu0XZlriZZJAdSlsKkQy6dpgKiDAaMj1HOpt7SSe4lTio3fH37zN8bnWmvvZGmQr3TjGxKlcg5AKnBI299CyyG3cybiDUHHMSKCR6juv9o0n3iojMF5CYw3N4DqPm2nuyD9pMkepHpTBGqvG7KdJF3SXCkjlvloj7iS0f7S+VG4QukFiH256dV1b/AK2lkmT/AJmsDzY/1aTzJpjMXhMixjbQ9ywb9mf5se4yKAfQ0ICCntWdG2h4lO7ICs5aSHSNfzymVJpnU7MdcXbBBqAWSPUDp0tYopJ398iNWTcV79/wMV0Q6BS8UvIbGDshNfTHsi7lYUaON5nOrDNgqHA7uolQuMkadCTSW09yKVJXlsku+if+Dht7dC1/xBpmUDMdvpt4scyGf5yYsD4q8fqKyquMkllY9ThOjqMmtraeuuS/rvHR6G+xFwk/O2trGOwKyfKJZJ5nEgHaRtFrcsBkDEy7Kd1DFTjltzqq0nl5kqs6OEdoxTl4259vYSm6L9FIbFVW3VAQyJJ4vJlsOZZDl5JFLHdySSN+dTSSVloYlSrKpJym7v3u4HV3Q7u2xOEB9TjUf5/q0I5ltMF/0YMYHgZSPH0jQj4t6UD0RhQuDrmf6KqdP+jG+ffKRn9UKPGhgkc90ivWjjYkDtrgjun6ux7ND+jGuXf9rzFAzTW9rpt3gT6ajtppWVXEaSElyynZ5pxqOjfAOTsFDRvcfaRW4JCnDOkcloC3YTWsfYMQFwjPKyLhcKphYaMYHcA9azalJRs9139f5NCFRyvxsSc4HfnGlua7Z8x4H128R459K7U5tZMrVIXzR0UElWCuZsTUxGUrU7kTsi1MkLVQRAz0AUFqB3KdVOxG4s0xB1UxB1UgEGosNB1VEkLNAAzQAiaAKHAwcnA8Tkrj4ggj31JEd42vWxCFjSSG6USCWIBXkeVXy6gqEZwSxzt2bI2cYJ5Gd+KO0VnmOTanZRgYIZD6MDkfA4bf1FRZzWhZjYqgO/zL7jzj5H7EIb3ijeNFuRuzn9JB/wASjf8A3k/6KNUBqprAESwn6nejI59k+6lfWJxgeQVfOjtG+Jbtb1pIh/lYG1Y83TaRR+jKhOPRx5bO1mJPccB0w4MsY0x/RkElzDz2GFl8eWJTy8MiobyZC/2zLYFuGsPprbTouAcgv2JkJOCC7OgYZ37rYxqYizTOc9CE0t2yOCjlHR2kV0bS0bNgqEdCCDHpBDIdiTg7AnTSuszPu4u61JfdC7vgXFrS1S74/wAVNwyRw3FpdXkkCGZwqyJEkfZxzx62IQjWWBAJJzWRUpypy6sMr5NK69bd57ChiVWpXnNNpP8AM0+y6Vj0VjvjEkarBE7RiO1RY8IskTkL3VbAVIox2rR5YAKwUnIy2jz6d/M3XC+Gqirt3nHymZtss+kc8YHIKox4AVG4M28i7pn6il29+NyftNRBnP8ADJ+2RVHKT5yTz0yHUF/WcfYmfMULIk9bGzvSGbT9SEgt5PKN0Ufopsx9dI8DSHoji3udbPOVZwkvZxKPrlu73fDMkmBqPJFB5E0PgJGmuQwb5OpBebU9y/Md7ZsZ5nlDEG2CqTjuYKRJ8RmuuPqzVreOaCzmR7CTX26xwRQ9kjZk7oZJpFXBZSEYHJ3wSaqYmLcLlyhK0rPf4nY9WnSv5RCpbaWMBZRn4qwPirKQQdufmNqdGptKz1Xu53rU9l5aMcaEMNxv5+Gf5/k1ezWhQbWjNrbSZANdE7nNqxmLTIWP/9k="
+  },
+  {
+    "name": "Optiker Ullström",
+    "url": "optikerullstrom.se/",
+    "district": "Väster",
+    "address":"Barnarpsgatan 7, 553 16 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNtk_UsI_1D-shDorxbCDQEhRh9kUDjsZ6Y3C52=s1360-w1360-h1020"
+  },
+  {
+    "name": "Optik & Form",
+    "url": "optikochform.se/",
+    "district": null,
+    "address":"Smedjegatan 18, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipM5i9PR78LJ42kmEyLC2ocBf9rtrL4CQsdp-od0=s1360-w1360-h1020"
+  },
+  {
+    "name": "Partyland",
+    "url": "partyland.party/butiker/",
+    "district": "Väster",
+    "address":"Nygatan 11, 553 16 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipOhHtomc-4kM2RLRsr3gFROoS4Qe9gNrP4ghnpA=s1360-w1360-h1020"
+  },
+  {
+    "name": "Planta Blommor",
+    "url": "plantablommor.se/?gclid=Cj0KCQjwteOaBhDuARIsADBqRehsWXSRNHjeGnPn_AyambJZLmNntWxsMnUkANIHdme0NoDtc2Xi8mgaAicoEALw_wcB#.Y2p1tuzMLPZ",
+    "district": "Väster",
+    "address":"Barnarpsgatan 24, 553 16 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMCOu7gsIdEYHazMzC6HQwkesNA4FrwHwAZcIMk=s1360-w1360-h1020"
+  },
+  {
+    "name": "Pleasure erotic shop",
+    "url": "pleasureeroticshop.se/",
+    "district": "Väster",
+    "address":"Nygatan 10, 553 16 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipOeCmNnkcvQ8tajwew_iHLTNK8_dRoLed-J2QRj=s1360-w1360-h1020"
+  },
+  {
+    "name": "PMU Second Hand Jönköping City",
+    "url": "pmu.se/stores/jonkopingcity/",
+    "district": "Öster",
+    "address":"Smedjegatan 27, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipOENeupOuXys5R44dnF8zHjZfC_AOjqkBq3BnPe=s1360-w1360-h1020"
+  },
+  {
+    "name": "Pressbyrån Östra storgatan",
+    "url": "pressbyran.se/kontakt/hitta-butik/",
+    "district": "Öster",
+    "address":"Östra Storgatan 8, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNDNGF2JmLWflRo12halv-_-m8SxckTYImxSilq=s1360-w1360-h1020"
+  },
+  {
+    "name": "Pressbyrån Resecentrum",
+    "url": "pressbyran.se/kontakt/hitta-butik/",
+    "district": "Resecentrum",
+    "address":"Järnvägsgatan 12, 553 15 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipOvBsNNNTWGakP7-JhOwA6j1De9GuBLKGWXkWPl=s1360-w1360-h1020"
+  },
+  {
+    "name": "Pressbyrån Väster",
+    "url": "pressbyran.se/kontakt/hitta-butik/",
+    "district": "Väster",
+    "address":"Barnarpsgatan 36",
+    "img":"https://jvgfoto.se/foto/00010190q.jpg"
+  },
+  {
+    "name": "Rabalder",
+    "url": "publik.rabalder.se/butiker/joenkoeping.aspx",
+    "district": "Öster",
+    "address":"Smedjegatan 16, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPiVCdxD_R0Ug1bEswOwSriU6-e-X8wBMhtxL5Z=s1360-w1360-h1020"
+  },
+  {
+    "name": "Resehuset",
+    "url": "resehuset.se/",
+    "district": "Väster",
+    "address":" Barnarpsgatan 23, 553 16 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPikEsufxCTmdEWFDD57a1-ByhK3s44SS1Q8leG=s1360-w1360-h1020"
+  },
+  {
+    "name": "Rituals",
+    "url": "rituals.com/sv-se/store-detail?store=J%C3%B6nk%C3%B6ping-%C3%96stra-Storgatan",
+    "district": "Öster",
+    "address":"Östra Storgatan 13A, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMprRdWaY12YL6s4N9gYcDEipcx1txWJV4gvPHM=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Rizzo",
+    "url": "rizzo.se/stores/",
+    "district": "Öster",
+    "address":"Östra Storgatan 11, 553 21 Jönköping",
+    "img":"data:image/jpeg;base64,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"
+  },
+  {
+    "name": "Röda Korset Second Hand ",
+    "url": "rodakorset.se/vad-vi-gor/second-hand/butiker/roda-korset-secondhand-jonkoping/?gclid=CjwKCAjwzY2bBhB6EiwAPpUpZvHzKjPuEJP8mzdhkuZYuEUoinVduEX8lEL6C0cnHq-JkG5o4XalYBoCwX8QAvD_BwE",
+    "district": "Väster",
+    "address":"Klostergatan 3, 553 17 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMEsb5FjxhKNztjXW7IB6rH8dHlw2GTPZ92-Pp4=s1360-w1360-h1020"
+  },
+  {
+    "name": "Rundquist & Zälle",
+    "url": "rundquist-zalle.com",
+    "district": "Väster",
+    "address":"Barnarpsgatan 7, 553 16 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPmyVqzo_4R3WEwEpLEHVToPfWK-g0yTbGUKrgQ=s1360-w1360-h1020"
+  },
+  {
+    "name": "Säfvers Tobak",
+    "url": "facebook.com/people/S%C3%A4fvers-tobak/100049803762896/",
+    "district": null,
+    "address":"Västra Storgatan 10, 553 15 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipOUNk6PG8WIiYA7hcffRe8GPEBdvcQHkPSoPVHI=s1360-w1360-h1020"
+  },
+  {
+    "name": "SåIniNordeN",
+    "url": "saininorden.se/",
+    "district": "Öster",
+    "address":"Smedjegatan 21, 553 22 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNdCw58K5Vb-8x1fTE6_oozdPF7OxDyYagPlpSD=s1360-w1360-h1020"
+  },
+  {
+    "name": "Sandströms",
+    "url": "sandstroms.nu/butiker/sandstroms-jonkoping",
+    "district": "Öster",
+    "address":"Bredgränd 14, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipOIYZZZKw3hbqJWCuelAmUtRdwO8xd0JvsFRBZ6=s1360-w1360-h1020"
+  },
+  {
+    "name": "Sarabello",
+    "url": "facebook.com/people/SARABELLO/100054240470073/",
+    "district": "Öster",
+    "address":"Lantmätargränd, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNqsBLJaNy2mmHvM3IhbQue7aftZ0zsahDwdfjj=s1360-w1360-h1020"
+  },
+  {
+    "name": "Saumas sko & nyckelservice",
+    "url": "saumasskoochnyckelservice.heymo.se/",
+    "district": null,
+    "address":"Borgmästargränd 5, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipM9QI88c5bAsXxzWW8Tm0Azxl02YPXwbkDY0wcT=s1360-w1360-h1020"
+  },
+  {
+    "name": "Sjöqvists skomakeri",
+    "url": "sjoqvistskomakeri.se/",
+    "district": "Väster",
+    "address":"Oxtorgsgatan 19, 553 17 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMwDdlGbatpJUX0lUVf6QbJjmbiZXEXT0jQFM6E=s1360-w1360-h1020"
+  },
+  {
+    "name": "Smålands Skinnmanufaktur",
+    "url": "smalandsskinnmanufaktur.se/",
+    "district": "Tändsticksområdet",
+    "address":"Tändsticksgränd 24, 553 15 Jönköping",
+    "img":"https://smalandsskinnmanufaktur.se/media/pages/kontakt/69ab5fd53a-1671444730/katrin-tomrade-1-2000x.jpg"
+  },
+  {
+    "name": "Smarteyes",
+    "url": "smarteyes.se/butiker/jonkoping",
+    "district": null,
+    "address":"Östra Storgatan 13A, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMLd7SdVfXvaGoW07gWp7ENyO7ZxG8IOBvOvll9=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Smycka Guld",
+    "url": "smycka.se/store/19",
+    "district": null,
+    "address":"Östra Storgatan 12, 553 21 Jönköping",
+    "img":"https://guldvarde.se/wp-content/uploads/2023/05/guldbutiker-600x381.png"
+  },
+  {
+    "name": "Smycket",
+    "url": "smycketjonkoping.se/",
+    "district": null,
+    "address":"Smedjegatan 20, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPjQF_OY0ARII2Yx3SOXs4GQaJMz6nJ9qAM029_=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Specsavers",
+    "url": "httpspecsavers.se/hitta-till-din-butik/jonkoping-city?utm_source=google&utm_medium=organic&utm_campaign=gmb-website&utm_content=jonkoping&y_source=1_NDA4Nzk2NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+    "district": null,
+    "address":"Borgmästargränd 3, 553 20 Jönköping",
+    "img":"https://lh5.googleusercontent.com/p/AF1QipNlx6rPl70xS3sQywZ6tWrPj4PyI0NUmvlXe0e0=w2160-h1216-n-k-no"
+  },
+  {
+    "name": "Stagelight",
+    "url": "stagelight.se/",
+    "district": null,
+    "address":"Tändsticksgränd 7. 553 15 Jönköping",
+    "img":"https://static-cdn.sr.se/images/91/2029791_1200_675.jpg?preset=1024x576"
+  },
+  {
+    "name": "Stil",
+    "url": "stilbutikerna.se/",
+    "district": "Öster",
+    "address":"Smedjegatan 15, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNZvy_hOghsMS8Xk7YwwRKKDSbZ6YPlxZFsZO8n=s1360-w1360-h1020"
+  },
+  {
+    "name": "Story",
+    "url": "storyjkpg.se",
+    "district": "Atollen",
+    "address":"Lantmätargränd 40, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipM6TkgeBuX9il-ayYlEDH0pGlJgr93fRLg9F8Ut=s1360-w1360-h1020"
+  },
+  {
+    "name": "SunOff",
+    "url": "sunoff.se/butiker/jonkoping?gclid=CjwKCAjw8JKbBhBYEiwAs3sxNy3EnUFGceeFxyJN35fymdpsg5qEWUTPj6Sx0TbNoLdwp8E6AI-I5xoC45gQAvD_BwE",
+    "district": "Väster",
+    "address":" Industrigatan 4, 553 02 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMQ8faxUNZUSbKqRm4KI8n6l86mfYK0qBxPcAcJ=s1360-w1360-h1020"
+  },
+  {
+    "name": "Synoptik",
+    "url": "httpsynoptik.se/butiker/jonkoping/jonkoping-ostra-storgatan5?utm_campaign=gmb-website&utm_source=google&utm_medium=organic&utm_content=667-Jonkoping-Ostra-Storgatan-5",
+    "district": null,
+    "address":"Östra Storgatan 5, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipNt7muEqzL6mkXVr2DuchMQayLw8ySOv9mMrplz=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Synsam Jönköping Öster",
+    "url": "synsam.se/optiker/synsam-j%C3%B6nk%C3%B6ping-%C3%B6ster/128",
+    "district": "Öster",
+    "address":"Lantmätargränd 9, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPnu5SWxpXBUmgnzuT6SQfbuTIIlECfq8DdxENn=s1360-w1360-h1020"
+  },
+  {
+    "name": "Synsam Jönköping Väster",
+    "url": "synsam.se/optiker/synsam-j%C3%B6nk%C3%B6ping-v%C3%A4ster/125",
+    "district": "Väster",
+    "address":"Västra Storgatan 1, 553 15 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPy3cU_Iit5LEufdfIXznbhqyQWY08cVHOZwzJU=s1360-w1360-h1020"
+  },
+  {
+    "name": "Systembolaget",
+    "url": "systembolaget.se/butiker-ombud/",
+    "district": "Öster",
+    "address":"Fiskargränd 5, 553 20 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipM4xKJIsqWpTsXc5A_FpAy6Shk7CtbGAedxuJdt=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "The Body Shop",
+    "url": "thebodyshop.com/sv-se/store-details/jonkoping-smedjegatan/3801?utm_source=google&utm_medium=organic-local&utm_campaign=yext&utm_content=3801",
+    "district": "Öster",
+    "address":"A6 Center, Kompanigatan 3, 553 05 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPho9GVzArgm308TwbbDT6obu5F29oLBzPRActD=s1360-w1360-h1020"
+  },
+  {
+    "name": "Ticket",
+    "url": "ticket.se/resebutiker/jonkoping.html",
+    "district": null,
+    "address":"Västra Storgatan 2, 553 15 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipM-33F9I5_YH_chHaSyGMhasFVASUumnrudSZQT=s1360-w1360-h1020"
+  },
+  {
+    "name": "Twilfit",
+    "url": "shop.change.com/sv-SE",
+    "district": "Öster",
+    "address":"Kompanigatan Box 11040, 550 11 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMel5umJPo_WR4K4Tqy_Es-3UNJGN8DcwHbdfIv=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Ur & Penn",
+    "url": "uropenn.se/hitta-butik/",
+    "district": "Öster",
+    "address":"Östra Storgatan 19, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPl5BvilWv-sTmLeF04HSy4KjcjsDU3SigW9oOa=s1360-w1360-h1020-rw"
+  },
+  {
+    "name": "Västanhem Butik",
+    "url": "vastanhem.se",
+    "district": "Väster",
+    "address":"Barnarpsgatan 29, 553 17 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipO-jJRe42PEYel06eRA8nhRfDa428IOlmu6IEPA=s1360-w1360-h1020"
+  },
+
+  {
+    "name": "Vätterbygden Ankarbergs Begravningsbyrå",
+    "url": "ankarbergs.se/",
+    "district": null,
+    "address":"Nygatan 11, 553 16 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPC5Cam0HuIOQowM2c0cwpp2H9kL5goTGN3elw6=s1360-w1360-h1020"
+  },
+  {
+    "name": "Vätterfisk",
+    "url": "xn--vtterfisk-v2a.se/",
+    "district": "Väster",
+    "address":"Trädgårdsgatan 9, 553 16 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipPLwfdb9p-zcsAQy4L4yJUNU4kvtRmz3b5JsC-P=s1360-w1360-h1020"
+  },
+  {
+    "name": "Yxhage Lås och Larm",
+    "url": "yxhage.se/",
+    "district": null,
+    "address":"Östra Storgatan 41, 553 21 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipMgWj5vVlo6tfwHLa2dzJah-Bjr4I8Ibfi59rkL=s1360-w1360-h1020"
+  },
+  {
+    "name": "Zephyr Tattoo Parlour",
+    "url": "zephyrtattoo.se",
+    "district": "Öster",
+    "address":"Innergården, Fornkullegatan 2a, 554 73 Jönköping",
+    "img":"https://lh3.googleusercontent.com/p/AF1QipM5QQQUCFp7it971bjIE68x359yu2cTuj46_h2v=s1360-w1360-h1020"
+  }
+]
