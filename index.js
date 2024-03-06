@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors'); // Import cors module
+const cookieParser = require('cookie-parser');
 
 const app = express();
 const port = 3000;
@@ -9,6 +10,7 @@ const Model = new ModelClass();
 
 // Use cors middleware to enable CORS
 app.use(cors());
+app.use(cookieParser()); // Middleware to parse cookies
 
 app.get('/', async (req, res) => {
   const stores = await Model.getStores();
@@ -36,6 +38,29 @@ app.get('/venues/:id', async (req, res) => {
     res.status(500).json({ message: 'Internal server error' });
   }
 });
+
+
+
+app.post('/login', (req, res) => {
+  const { username, password } = req.body;
+  if (username === 'Student' && password === '12345') {
+    res.cookie('token', 'super-secret-cookie', { httpOnly: true });
+    res.send('Login successful');
+  } else {
+    res.status(401).send("Invalid username or password");
+  }
+});
+
+app.get('/check-user-status', (req, res) => {
+  const { token } = req.cookies;
+  if (token === 'super-secret-cookie') {
+    res.send('User is logged in!');
+  } else {
+    res.status(401).send('Unauthorized');
+  }
+});
+
+
 
 
 const server = async () => {

@@ -1,30 +1,66 @@
 import React, { useState } from "react";
 import './Login.css';
+import Image from "./assets/image.png";
+import Logo from "./assets/logo.png";
+import GoogleSvg from "./assets/icons8-google.svg";
+import { FaEye } from "react-icons/fa6";
+import { FaEyeSlash } from "react-icons/fa6";
 
-function Login() {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    console.log('Login details:', username, password);
-  };
+
+const Login = () => {
+  const [ showPassword, setShowPassword ] = useState(false);
+
 
   return (
-    <div className="form-container" id="login" style={{backgroundImage: `url('https://jkpg.com/media/filer_public/ec/ee/ecee4aac-b873-4c66-96fa-1e50b5c4bd8f/hemsida.jpg')`}}>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label className="form-label">Username:</label>
-          <input className="form-input" type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+    <div className="login-main">
+      <div className="login-left">
+        <img src={Logo} alt="" />
+      </div>
+      <div className="login-right">
+        <div className="login-right-container">
+          <div className="login-logo">
+            <img src={Image} alt="" />
+          </div>
+          <div className="login-center">
+            <h2>Welcome back!</h2>
+            <p>Please enter your details</p>
+            <form>
+              <input type="email" placeholder="Email" />
+              <div className="pass-input-div">
+                <input type={showPassword ? "text" : "password"} placeholder="Password" />
+                {showPassword ? <FaEyeSlash onClick={() => {setShowPassword(!showPassword)}} /> : <FaEye onClick={() => {setShowPassword(!showPassword)}} />}
+                
+              </div>
+
+              <div className="login-center-options">
+                <div className="remember-div">
+                  <input type="checkbox" id="remember-checkbox" />
+                  <label htmlFor="remember-checkbox">
+                    Remember for 30 days
+                  </label>
+                </div>
+                <a href="#" className="forgot-pass-link">
+                  Forgot password?
+                </a>
+              </div>
+              <div className="login-center-buttons">
+                <button type="button">Log In</button>
+                <button type="button">
+                  <img src={GoogleSvg} alt="" />
+                  Log In with Google
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <p className="login-bottom-p">
+            Don't have an account? <a href="#">Sign Up</a>
+          </p>
         </div>
-        <div className="form-group">
-          <label className="form-label">Password:</label>
-          <input className="form-input" type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-        </div>
-        <button className="form-submit" type="submit">Logga in</button>
-      </form>
+      </div>
     </div>
   );
-}
+};
 
 export default Login;
