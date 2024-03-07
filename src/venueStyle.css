@@ -4,29 +4,40 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f4f4f4; /* Light background for contrast */
 }
 
-/* Container for venues */
+/* General styles */
+h1, .venue-info h2 {
+  color: #333;
+  font-weight: 700;
+}
+
+p, .filter-label, .filter-select {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Venues list container */
 .venues-container {
   padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Container for venue cards */
+/* Venue cards for list view */
 .venue-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
 }
 
-/* Individual venue card */
 .venue-card {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  overflow: hidden;
-  width: calc(33.33% - 40px);
-  max-width: 300px;
   background-color: #fff;
+  overflow: hidden;
   transition: transform 0.3s ease;
 }
 
@@ -34,72 +45,33 @@ body {
   transform: translateY(-5px);
 }
 
-/* Venue image */
-/* Venue image with diagonal border */
 .venue-img {
-  position: relative;
   width: 100%;
-  height: 200px;
-  overflow: hidden;
+  height: 200px; /* Fixed height for uniformity */
+  object-fit: cover; /* Ensure images cover the area well */
 }
 
-.venue-img::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -20px; /* Adjust this value to change the angle of the diagonal border */
-  width: 0;
-  height: 0;
-  border-top: 100px solid transparent; /* Adjust this value to change the height of the diagonal border */
-  border-right: 20px solid #007bff; /* Adjust this value to change the width and color of the diagonal border */
-  z-index: 1;
-}
-
-.venue-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  position: relative;
-  z-index: 2;
-}
-
-/* Venue details */
-.venue-details {
+.venue-details, .venue-info {
   padding: 20px;
 }
 
-.venue-details h2 {
-  margin-top: 0;
-  font-size: 24px;
-  font-weight: 700;
-  color: #333;
-}
-
-.venue-details p {
-  margin-bottom: 16px;
-  font-size: 16px;
-  color: #666;
-}
-
-/* Button styles */
-.btn {
-  padding: 10px 20px;
-  border: none;
-  background-color: #007bff;
-  color: white;
-  text-align: center;
-  text-decoration: none;
+/* Button and link styles */
+.btn, .venue-btn {
   display: inline-block;
-  cursor: pointer;
+  padding: 10px 20px;
   border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  text-align: center;
   transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+.btn:hover, .venue-btn:hover {
   background-color: #0056b3;
 }
 
-/* Filter dropdown container */
+/* Filter dropdown styles */
 .filter-dropdown {
   margin-bottom: 20px;
   display: flex;
@@ -107,16 +79,12 @@ body {
   align-items: center;
 }
 
-/* Filter dropdown label */
 .filter-label {
   margin-right: 10px;
-  font-size: 16px;
 }
 
-/* Filter dropdown select */
 .filter-select {
   padding: 8px;
-  font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: #fff;
@@ -131,4 +99,39 @@ body {
   outline: none;
   border-color: #007bff;
   box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+/* Enhancements for the venue details view */
+.venue-details-container, .venue-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .venue-details-container, .venue-card-container {
+    flex-direction: row;
+  }
+}
+
+/* Loading state enhancement */
+.venue-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 24px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .venue-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .venue-card, .venue-details-container, .venue-card-container {
+    width: 100%;
+  }
 }
