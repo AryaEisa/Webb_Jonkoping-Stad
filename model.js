@@ -35,9 +35,10 @@ class ModelClass {
     CREATE TABLE IF NOT EXISTS public.users
     (
         id SERIAL,
-        name text,
-        password text
-
+        name TEXT,
+        email TEXT,
+        password TEXT,
+        CONSTRAINT users_pkey PRIMARY KEY (id)
     )`);
 
     await this.connection.query(`
@@ -50,9 +51,21 @@ class ModelClass {
           OWNER to postgres
     `);
 
+    // Insert default user
+    const defaultUser = {
+        name: 'admin',
+        email: 'admin@example.com',
+        password: 'adminpassword'
+    };
 
+    await this.connection.query(`
+        INSERT INTO users (name, email, password)
+        VALUES ($1, $2, $3)
+    `, [defaultUser.name, defaultUser.email, defaultUser.password]);
+
+    console.log('Default user inserted.');
+    
     for (const store of stores) {
-
       const { rows } = await this.connection.query(`
         SELECT * FROM stores WHERE name = $1
       `, [store.name]);
@@ -65,8 +78,24 @@ class ModelClass {
     `, [store.name, store.url, store.district, store.category, store.address, store.img]);
       }
     }
-    
+}
+
+async loginUser(username, password) {
+  try {
+      const { rows } = await this.connection.query(`
+          SELECT * FROM users WHERE name = $1 AND password = $2
+      `, [username, password]);
+
+      if (rows.length > 0) {
+          return true; // User credentials are correct
+      } else {
+          return false; // User credentials are incorrect
+      }
+  } catch (error) {
+      console.error('Error logging in:', error);
+      return false; // Return false in case of an error
   }
+}
 
   async getStores() {
     const { rows } = await this.connection.query(`

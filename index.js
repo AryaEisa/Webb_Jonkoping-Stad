@@ -10,6 +10,7 @@ const Model = new ModelClass();
 
 // Use cors middleware to enable CORS
 app.use(cors());
+app.use(express.json()); // Add this line to parse JSON bodies
 app.use(cookieParser()); // Middleware to parse cookies
 
 app.get('/', async (req, res) => {
@@ -39,17 +40,24 @@ app.get('/venues/:id', async (req, res) => {
   }
 });
 
+app.post('/login', async (req, res) => {
+  try {
+    const { username, password } = req.body;
+    const isLoggedIn = await Model.loginUser(username, password);
 
-
-app.post('/login', (req, res) => {
-  const { username, password } = req.body;
-  if (username === 'Student' && password === '12345') {
-    res.cookie('token', 'super-secret-cookie', { httpOnly: true });
-    res.send('Login successful');
-  } else {
-    res.status(401).send("Invalid username or password");
+    if (isLoggedIn) {
+      res.cookie('token', 'super-secret-cookie', { httpOnly: true });
+      res.send('Login successful');
+    } else {
+      res.status(401).send('Invalid username or password');
+    }
+  } catch (error) {
+    console.error('Error logging in:', error);
+    res.status(500).send('Internal server error');
   }
 });
+
+
 
 app.get('/check-user-status', (req, res) => {
   const { token } = req.cookies;
