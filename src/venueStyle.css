@@ -209,35 +209,52 @@ h1 {
 
 
 
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+    color: #00d4ff; /* Startfärg */
+  }
+  50% {
+    color: #ff00aa; /* Mellanfärg */
+  }
+  100% {
+    transform: translateX(-100%);
+    color: #00d4ff; /* Slut (och start) färg */
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1); /* Ursprunglig storlek */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    transform: scale(1.05); /* Lite större */
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.75);
+  }
+}
+
 .marquee {
   overflow: hidden;
   position: relative;
-  background: linear-gradient(90deg, rgba(2, 0,3, 0.9, 0.4) 0%, rgba(9,9,121,2) 35%, rgb(0, 6, 8) 50%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   padding: 20px 0;
 }
 
 .marquee__content span {
-  font-size: 20px; /* Större text */
+  font-size: 20px;
   font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Textskugga för bättre läsbarhet */
-  white-space: nowrap; /* Se till att texten inte bryts */
-  padding: 0 10vw; /* Lägg till lite utrymme på sidorna för att starta och sluta animationen */
+  white-space: nowrap;
+  padding: 0 10vw;
+  display: inline-block; /* Lägg till för animeringsändamål */
+  animation: pulse 3s infinite ease-in-out; /* Använd pulse-animationen */
 }
 
 .marquee__content {
   display: flex;
-  animation: scroll-left 20s linear infinite; /* Snabbare animation */
+  animation: scroll-left 20s linear infinite;
 }
 
-@keyframes scroll-left {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
 
 
 
