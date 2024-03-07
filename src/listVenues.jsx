@@ -47,8 +47,25 @@ const ListVenues = () => {
     );
 
     return (
+        
         <div className="venues-container">
+            
             <h1>Venues List</h1>
+            
+      <video 
+        autoPlay 
+        playsInline 
+        loop 
+        muted // It's important to mute the video for autoplay to work in most browsers
+        preload="auto" // Change to 'auto' or 'metadata' depending on your preference
+        className="background-video"
+      >
+        <source src="https://cdn.gracestudio.io/jkpg-city/Header_16_9_03_78b04b7dbf/Header_16_9_03_78b04b7dbf.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    
+
+            
             <div className="filter-dropdown">
                 <label htmlFor="districtSelect" className="filter-label">Filter by District: </label>
                 <select id="districtSelect" className="filter-select" value={selectedDistrict} onChange={handleDistrictChange}>

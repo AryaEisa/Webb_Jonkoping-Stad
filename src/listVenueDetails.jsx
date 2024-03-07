@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import './venueStyle.css';
+import './venueDetailStyle.css'; // Updated CSS file name for clarity
 
 const ListVenuesDetail = () => {
     const [venue, setVenue] = useState(null);
@@ -25,14 +25,14 @@ const ListVenuesDetail = () => {
     }
 
     return (
-        <div className="venue-details-container">
-            <div className="venue-card-container">
-                <img className="venue-img" src={venue[0].img} alt={venue[0].name} />
-                <div className="venue-info">
+        <div className="venue-detail-container">
+            <div className="venue-detail-card">
+                <img className="venue-detail-img" src={venue[0].img} alt={venue[0].name} />
+                <div className="venue-detail-info">
                     <h2>{venue[0].name}</h2>
                     <p>{venue[0].address}</p>
                     <p>District: {venue[0].district}</p>
-                    <a href={venue[0].url} target="_blank" rel="noopener noreferrer" className="venue-btn">Visit Website</a>
+                    <a href={venue[0].url} target="_blank" rel="noopener noreferrer" className="venue-detail-btn">Visit Website</a>
                 </div>
             </div>
         </div>

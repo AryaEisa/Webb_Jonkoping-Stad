@@ -1,200 +1,111 @@
-*{
-  box-sizing: border-box;
-  padding: 0px;
-  margin: 0px;
+/* Login.css */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents scrolling */
 }
 
-html{
-  font-size: 10px;
-}
-
-body{
-  font-family: "Poppins", sans-serif;
-  height: 100vh;
-
-}
-
-.login-main{
-  display: flex;
-}
-
-.login-left{
-  flex-grow: 1;
-  height: 100vh;
-  background-color: #E9E9E9;
-
+.login-main {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.login-left img{
-  width: 400px;
-}
-
-.login-right{
-
   height: 100vh;
-
-  flex-grow: 1;
-
-
-}
-
-.login-right-container{
-  height: 100%;
-  width: 80%;
-  margin: 0 auto;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-}
-
-.login-right form{
-  display: flex;
-  flex-direction: column;
-}
-
-.login-logo{
-  align-self: center;
-  padding-top: 50px;
-}
-
-.login-center{
-  margin: auto 0;
-}
-
-.login-logo img{
-  width: 600px;
-}
-
-.login-center h2{
-  font-size: 3.5rem;
-}
-
-.login-center{
-  text-align: center;
-}
-
-.login-center p{
-  font-weight: 400;
-  font-size: 2rem;
-  margin-bottom: 40px;
-}
-
-form input[type='email'],
-form input[type='password'],
-form input[type='text']
- {
-  width: 100%;
-  padding: 16px;
-  margin-bottom: 16px;
-  border: 0px;
-  border-bottom: 1px solid black;
-  outline: none;
-  box-sizing: border-box;
-}
-
-.pass-input-div{
   position: relative;
 }
 
-.pass-input-div svg{
-  font-size: 20px;
-  position: absolute;
-  right: 10px;
-  bottom: 35px;
-  cursor: pointer;
-  outline: none;
+.background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
 }
 
-form button[type='button'] {
-  width: 100%;
-  padding: 16px;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 30px;
-  font-weight: 600;
-}
-
-
-.login-center-options{
-  display: flex;
-  justify-content: space-between;
-}
-
-.remember-div{
-  display:flex;
-  align-items: center;
-  column-gap: 5px;
-}
-
-.remember-div label{
-  font-size: 1.3rem;
-  font-weight: 500;
-  cursor: pointer;
-  margin-top: 2px;
-}
-
-.forgot-pass-link{
-  text-decoration: none;
-  font-size: 1.3rem;
-}
-
-.forgot-pass-link:hover{
-  text-decoration: underline;
-}
-
-.login-center-buttons{
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 10px;
-}
-
-.login-center-buttons button:nth-child(1){
-  background-color: black;
-  color: white;
-  border: 3px solid black;
-}
-
-.login-center-buttons button:nth-child(1):hover{
-  color: #333;
-  background-color: white;
-}
-
-.login-center-buttons button:nth-child(2){
-  background-color: #F0F0F0;
+.login-right {
+  z-index: 2; /* Ensures the form appears above the video */
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 10px;
+  width: 100%;
 }
 
-.login-center-buttons button:nth-child(2) img{
-  width: 30px;
+.login-right-container {
+  background-color: rgba(239, 239, 239, 0.4); /* Semi-transparent background for form */
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Shadow for depth */
+  max-width: 450px;
 }
 
-.login-center-buttons button:nth-child(2):hover{
-  background-color: #c4c4c457;
-}
 
-.login-bottom-p{
+
+.login-center {
   text-align: center;
-  font-size: 1.5rem;
-  padding-bottom: 40px;
 }
 
-.login-bottom-p a{
+.login-center h2, .login-center p {
+  color: #f3f3f3; /* High contrast against the light form background */
+}
+
+input[type=email], input[type=password], .login-center-buttons button {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 20px;
+}
+
+.pass-input-div {
+  position: relative;
+}
+
+.fa6 { /* Adjustments for eye icons */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #333;
+}
+
+.login-center-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition:  0.3s ease;
+}
+
+.login-center-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.login-center-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.forgot-pass-link, .login-bottom-p a {
+  color: #007bff;
   text-decoration: none;
-  font-weight: 600;
 }
 
-.login-bottom-p a:hover{
+.forgot-pass-link:hover, .login-bottom-p a:hover {
   text-decoration: underline;
 }
 
+.login-bottom-p {
+  color: #c9c9c9; /* For readability */
+}
+
+@media (max-width: 768px) {
+  .login-right-container {
+    width: 90%; /* Allows for some margin on smaller screens */
+  }
+}

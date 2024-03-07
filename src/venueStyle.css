@@ -4,12 +4,15 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   background-color: #f4f4f4; /* Light background for contrast */
 }
 
 /* General styles */
 h1, .venue-info h2 {
   color: #333;
+  font-weight: 700;
+  text-align: center;
   font-weight: 700;
 }
 
@@ -20,55 +23,75 @@ p, .filter-label, .filter-select {
 
 /* Venues list container */
 .venues-container {
+  position: relative;
+  overflow-y: auto;
   padding: 20px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 20px auto;
+  height: calc(100vh - 40px);
 }
 
 /* Venue cards for list view */
-.venue-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.venue-cards { /* fixa rutorna så man kan se bakgrunden*/
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
   gap: 20px;
 }
 
 .venue-card {
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* More pronounced shadow for depth */
   background-color: #fff;
   overflow: hidden;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .venue-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 .venue-img {
   width: 100%;
-  height: 200px; /* Fixed height for uniformity */
+  height: auto; /* Fixed height for uniformity */
   object-fit: cover; /* Ensure images cover the area well */
 }
 
-.venue-details, .venue-info {
+.venue-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ensure details fill space evenly */
   padding: 20px;
+  gap: 10px; /* Reduce gap for a tighter layout */
 }
 
-/* Button and link styles */
+
+
+
+/*
+.venue-details, .venue-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+  align-items: center;
+}
+*/
+
 .btn, .venue-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #fff;
   background-color: #007bff;
-  text-align: center;
-  transition: background-color 0.3s ease;
+  color: #fff;
+  border: none;
+  padding: 12px 20px; /* Larger padding for a more clickable area */
+  border-radius: 4px;
+  font-weight: 500; /* Slightly bolder font */
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 .btn:hover, .venue-btn:hover {
   background-color: #0056b3;
+  transform: translateY(-2px);
 }
 
 /* Filter dropdown styles */
@@ -78,6 +101,14 @@ p, .filter-label, .filter-select {
   justify-content: center;
   align-items: center;
 }
+.filter-select {
+  padding: 8px 12px; /* Larger padding for easier selection */
+  font-size: 16px; /* Larger font size for readability */
+}
+
+
+
+
 
 .filter-label {
   margin-right: 10px;
@@ -90,6 +121,14 @@ p, .filter-label, .filter-select {
   background-color: #fff;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .venue-details {
+    flex-direction: column; /* Stack details vertically on smaller screens */
+  }
+}
+
+
+
 
 .filter-select:hover {
   border-color: #007bff;
@@ -109,29 +148,22 @@ p, .filter-label, .filter-select {
   gap: 20px;
 }
 
-@media (min-width: 768px) {
-  .venue-details-container, .venue-card-container {
-    flex-direction: row;
-  }
+
+
+
+
+
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 
-/* Loading state enhancement */
-.venue-loading {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-size: 24px;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .venue-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .venue-card, .venue-details-container, .venue-card-container {
-    width: 100%;
-  }
+.background-video {
+  width: auto; /* Adjust width and height to your preference */
+  height: auto; /* This ensures the video maintains aspect ratio */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Ensures the video stays in the background */
 }

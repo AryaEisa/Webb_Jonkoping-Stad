@@ -13,14 +13,26 @@ const Login = () => {
 
 
   return (
+    
     <div className="login-main">
-      <div className="login-left">
-        <img src={Logo} alt="" />
-      </div>
+      <video 
+        autoPlay 
+        playsInline 
+        loop 
+        muted 
+        preload="auto" 
+        className="background-video"
+      >
+        <source src="https://cdn.gracestudio.io/jkpg-city/Header_16_9_03_78b04b7dbf/Header_16_9_03_78b04b7dbf.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      
+      
       <div className="login-right">
         <div className="login-right-container">
           <div className="login-logo">
-            <img src={Image} alt="" />
+            
+            
           </div>
           <div className="login-center">
             <h2>Welcome back!</h2>
