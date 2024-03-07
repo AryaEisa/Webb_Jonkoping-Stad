@@ -49,7 +49,23 @@ const ListVenues = () => {
     return (
         
         <div className="venues-container">
-            
+              <div className="mapImage">
+            <img 
+    alt="Karta över stadskärnan" 
+    src="https://cdn.gracestudio.io/jkpg-city/Karta_stadskaernan_9946c1b091/Karta_stadskaernan_9946c1b091.png" 
+    srcSet="https://cdn.gracestudio.io/jkpg-city/Karta_stadskaernan_9946c1b091/Karta_stadskaernan_9946c1b091.png 640w,
+            https://cdn.gracestudio.io/jkpg-city/Karta_stadskaernan_9946c1b091/Karta_stadskaernan_9946c1b091.png 750w,
+            https://cdn.gracestudio.io/jkpg-city/Karta_stadskaernan_9946c1b091/Karta_stadskaernan_9946c1b091.png 828w,
+            https://cdn.gracestudio.io/jkpg-city/Karta_stadskaernan_9946c1b091/Karta_stadskaernan_9946c1b091.png 1080w,
+            https://cdn.gracestudio.io/jkpg-city/Karta_stadskaernan_9946c1b091/Karta_stadskaernan_9946c1b091.png 1200w,
+            https://cdn.gracestudio.io/jkpg-city/Karta_stadskaernan_9946c1b091/Karta_stadskaernan_9946c1b091.png 1920w,
+            https://cdn.gracestudio.io/jkpg-city/Karta_stadskaernan_9946c1b091/Karta_stadskaernan_9946c1b091.png 2048w,
+            https://cdn.gracestudio.io/jkpg-city/Karta_stadskaernan_9946c1b091/Karta_stadskaernan_9946c1b091.png 3840w"
+    sizes="150vw, 290vw"
+    
+    
+  />
+            </div>
             <h1>Venues List</h1>
             
       <video 
@@ -69,22 +85,25 @@ const ListVenues = () => {
             <div className="filter-dropdown">
                 <label htmlFor="districtSelect" className="filter-label">Filter by District: </label>
                 <select id="districtSelect" className="filter-select" value={selectedDistrict} onChange={handleDistrictChange}>
-                    <option value="Alla">Alla</option>
-                    {districts.map((district, index) => (
-                        <option key={index} value={district}>{district}</option>
-                    ))}
-                </select>
+      <option value="Alla">Alla</option>
+      {districts.map((district, index) => (
+        <option key={index} value={district}>{district}</option>
+      ))}
+    </select>
+  </div>
+  <div className="filter-section">
+  <div className="filter-dropdown">
+    <label htmlFor="districtSelect" className="filter-label">Filter by District:</label>
+    <select id="categorySelect" className="filter-select" value={selectedCategory} onChange={handleCategoryChange}>
+      <option value="All Categories">All Categories</option>
+      {categories.map((category, index) => (
+        <option key={index} value={category}>{category}</option>
+      ))}
+    </select>
             </div>
-            <div className="filter-dropdown">
-                <label htmlFor="categorySelect" className="filter-label">Filter by Category: </label>
-                <select id="categorySelect" className="filter-select" value={selectedCategory} onChange={handleCategoryChange}>
-                    <option value="All Categories">All Categories</option>
-                    {categories.map((category, index) => (
-                        <option key={index} value={category}>{category}</option>
-                    ))}
-                </select>
             </div>
             <div className="venue-cards">
+                
                 {filteredVenues.map((venue) => (
                     <div key={venue.id} className="venue-card">
                         <img className="venue-img" src={venue.img} alt={venue.name} />

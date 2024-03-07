@@ -25,7 +25,9 @@ const ListVenuesDetail = () => {
     }
 
     return (
+        
         <div className="venue-detail-container">
+          
             <div className="venue-detail-card">
                 <img className="venue-detail-img" src={venue[0].img} alt={venue[0].name} />
                 <div className="venue-detail-info">

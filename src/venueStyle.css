@@ -1,11 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-body {
-  font-family: 'Roboto', sans-serif;
+* {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  background-color: #f4f4f4; /* Light background for contrast */
+  box-sizing: border-box;
+}
+.content {
+  position: relative; /* Positionera relaterat till videon */
+  z-index: 1; /* Högre än video z-index för att innehållet ska visas ovanpå */
+  /* Lägg till ytterligare styling för att positionera och forma innehållet */
+}
+.grid-container {
+  display: grid;
+  /* Lägg till ytterligare grid-egenskaper efter behov */
+}
+.flex-container {
+  display: flex;
+  /* Lägg till ytterligare flex-egenskaper efter behov */
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Dölj horisontell skrollning */
+}
+
+/* Se till att dina containers inte överskrider bredden av viewporten */
+.container {
+  max-width: 100vw; /* 100vw säkerställer att bredden är 100% av viewportens bredd */
+  overflow-x: hidden; /* Dölj innehåll som överskrider bredden */
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px; 
+    margin: auto;
+  }
+}
+/* Stil för venue-card */
+.venue-card {
+  width: 100%; /* Säkerställer att kortet kan expandera till full bredd */
+  max-width: 1200px; /* Eller vilken maxbredd du vill ha på ditt kort */
+  margin: auto; /* Centrerar kortet horisontellt om det inte tar upp hela bredden */
+}
+
+/* Responsivitet */
+@media (min-width: 1024px) {
+  .venue-card {
+    width: 90%; /* Eller vilken procentandel av bredden du föredrar */
+  }
 }
 
 /* General styles */
@@ -40,15 +82,17 @@ p, .filter-label, .filter-select {
 
 .venue-card {
   border-radius: 8px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* More pronounced shadow for depth */
-  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(255, 0, 0, 0.25); /* More pronounced shadow for depth */
+  background-color: rgba(0, 0, 0, 0.6);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 10px;
+  color: white;
 }
 
 .venue-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 24px rgba(251, 0, 0, 0.22);
 }
 
 .venue-img {
@@ -60,23 +104,14 @@ p, .filter-label, .filter-select {
 .venue-details {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Ensure details fill space evenly */
-  padding: 20px;
-  gap: 10px; /* Reduce gap for a tighter layout */
+  justify-content: space-between; 
+  padding: 5px;
+  gap: auto; 
 }
 
 
 
 
-/*
-.venue-details, .venue-info {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); 
-  gap: 20px; 
-  padding: 20px;
-  align-items: center;
-}
-*/
 
 .btn, .venue-btn {
   background-color: #007bff;
@@ -94,32 +129,40 @@ p, .filter-label, .filter-select {
   transform: translateY(-2px);
 }
 
-/* Filter dropdown styles */
 .filter-dropdown {
-  margin-bottom: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  align-items: center; /* Center align the content */
 }
 .filter-select {
   padding: 8px 12px; /* Larger padding for easier selection */
   font-size: 16px; /* Larger font size for readability */
 }
 
-
-
-
-
-.filter-label {
-  margin-right: 10px;
+.filters-container {
+  display: flex;
+  flex-direction: column; /* Stack filters in a column */
+  align-items: center; /* Center-align the filters */
+  gap: 10px; /* Space between filters */
+  margin-bottom: 20px; /* Space from the content below */
 }
 
+h1 {
+  color: white;
+}
+
+.filter-label {
+  margin-bottom: 5px; /* Space between label and select box */
+  color: #fff; /* Assuming a darker background; adjust as needed */
+}
+
+
 .filter-select {
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #fff;
-  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px; /* Rounded corners for select box */
+  border: 1px solid #ccc; /* Subtle border */
+  color: #333; /* Text color */
+  background-color: #fff; /* Light background for contrast */
 }
 @media (max-width: 768px) {
   .venue-details {
@@ -128,7 +171,13 @@ p, .filter-label, .filter-select {
 }
 
 
-
+.filter-section {
+  display: flex;
+  justify-content: center; /* Center the filters horizontally */
+  flex-wrap: wrap; /* Allow the filters to wrap on smaller screens */
+  gap: 20px; /* Add some space between filters */
+  margin-bottom: 20px; /* Space before the list of venues */
+}
 
 .filter-select:hover {
   border-color: #007bff;
@@ -166,4 +215,27 @@ p, .filter-label, .filter-select {
   top: 0;
   left: 0;
   z-index: -1; /* Ensures the video stays in the background */
+}
+.mapImage {
+  max-width: 100%; /* Ensure it doesn't overflow the viewport */
+  overflow: hidden; /* Hide any overflow */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-bottom: 20px; /* Add some space below the map */
+}
+
+.mapImage img {
+  max-width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area of the container without losing aspect ratio */
+}
+@media (max-width: 768px) {
+  .mapImage {
+    margin-bottom: 10px; /* Less space on smaller screens */
+  }
+
+  .mapImage img {
+    object-fit: contain; /* Adjust object-fit if needed for smaller screens */
+  }
 }
