@@ -25,9 +25,13 @@ const ListVenuesDetail = () => {
     }
 
     return (
+        <div className="marquee bg-black text-white p-4">
+  <div className="marquee__content" aria-hidden="false">
+    <span>Tändsticksområdet • Stationen • Rådhusparken • Högskolan • Väster • Atollen • Öster • Spira •</span>
+  </div>
         
+
         <div className="venue-detail-container">
-          
             <div className="venue-detail-card">
                 <img className="venue-detail-img" src={venue[0].img} alt={venue[0].name} />
                 <div className="venue-detail-info">
@@ -38,6 +42,7 @@ const ListVenuesDetail = () => {
                 </div>
             </div>
         </div>
+    </div>
     );
 }
 

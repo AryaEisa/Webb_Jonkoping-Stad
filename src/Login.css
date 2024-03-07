@@ -33,7 +33,7 @@ body, html {
 }
 
 .login-right-container {
-  background-color: rgba(239, 239, 239, 0.4); /* Semi-transparent background for form */
+  background-color: rgba(239, 239, 239, 0.64); /* Semi-transparent background for form */
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Shadow for depth */
@@ -47,12 +47,12 @@ body, html {
 }
 
 .login-center h2, .login-center p {
-  color: #f3f3f3; /* High contrast against the light form background */
+  color: #0b0909; /* High contrast against the light form background */
 }
 
 input[type=email], input[type=password], .login-center-buttons button {
   width: 100%;
-  padding: 15px;
+  padding: 11px;
   margin-bottom: 20px;
   border-radius: 20px;
   border: 1px solid #ccc;
@@ -65,7 +65,7 @@ input[type=email], input[type=password], .login-center-buttons button {
 
 .fa6 { /* Adjustments for eye icons */
   position: absolute;
-  right: 10px;
+  right: 122px;
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;

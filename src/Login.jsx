@@ -14,20 +14,7 @@ const Login = () => {
 
   return (
     
-    <div className="login-main">
-      <video 
-        autoPlay 
-        playsInline 
-        loop 
-        muted 
-        preload="auto" 
-        className="background-video"
-      >
-        <source src="https://cdn.gracestudio.io/jkpg-city/Header_16_9_03_78b04b7dbf/Header_16_9_03_78b04b7dbf.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      
-      
+    <div className="login-main">  
       <div className="login-right">
         <div className="login-right-container">
           <div className="login-logo">
@@ -58,17 +45,9 @@ const Login = () => {
               </div>
               <div className="login-center-buttons">
                 <button type="button">Log In</button>
-                <button type="button">
-                  <img src={GoogleSvg} alt="" />
-                  Log In with Google
-                </button>
               </div>
             </form>
           </div>
-
-          <p className="login-bottom-p">
-            Don't have an account? <a href="#">Sign Up</a>
-          </p>
         </div>
       </div>
     </div>
