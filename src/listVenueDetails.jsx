@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import './venueDetailStyle.css'; // Updated CSS file name for clarity
+import './venueDetailStyle.css'; 
 
 const ListVenuesDetail = () => {
     const [venue, setVenue] = useState(null);

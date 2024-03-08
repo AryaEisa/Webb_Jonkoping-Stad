@@ -27,6 +27,42 @@ app.get('/login', (req, res) => {
   res.send('This is the login page');
 });
 
+app.delete('/venues/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    await Model.deleteVenue(id);
+    res.status(200).json({ message: 'Venue deleted successfully' });
+  } catch (error) {
+    console.error('Error deleting venue:', error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
+
+app.post('/venues', async (req, res) => {
+  try {
+    const newVenue = req.body;
+    await Model.insertVenue(newVenue);
+    res.status(201).json({ message: 'Venue added successfully' });
+  } catch (error) {
+    console.error('Error adding venue:', error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
+
+
+app.put('/venues/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const updatedVenue = req.body;
+    await Model.updateVenue(id, updatedVenue);
+    res.status(200).json({ message: 'Venue updated successfully' });
+  } catch (error) {
+    console.error('Error updating venue:', error);
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
+
+
 app.get('/venues/:id', async (req, res) => {
   try {
     const { id } = req.params;

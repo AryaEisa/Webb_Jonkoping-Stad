@@ -1,0 +1,114 @@
+.admin-container {
+    width: 90%; /* Adjust width as needed */
+    max-width: 1200px; /* Maximum width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+  }
+  
+  .add-venue-form {
+    margin-bottom: 20px;
+  }
+  
+  .add-venue-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .add-venue-form input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-venue-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-venue-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .venue-list-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .venue-card {
+    width: calc(50% - 20px);
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .venue-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .venue-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .venue-details {
+    padding: 10px;
+  }
+  
+  .venue-details h2 {
+    margin-bottom: 5px;
+  }
+  
+  .venue-details p {
+    margin-bottom: 5px;
+  }
+  
+  .modify-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modify-modal h2 {
+    margin-bottom: 10px;
+  }
+  
+  .modify-modal input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modify-modal button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modify-modal button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .venue-list-container {
+    overflow-y: auto;
+    max-height: 400px; /* Adjust this value as needed */
+  }
+  

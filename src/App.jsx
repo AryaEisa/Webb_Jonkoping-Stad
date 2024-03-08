@@ -4,22 +4,24 @@ import ListVenues from './listVenues';
 import ListVenuesDetail from './listVenueDetails';
 import Login from './Login';
 import Navbar from './header';
+import Admin from './admin'; // Import the Admin component
+import { AuthProvider } from './AuthContext'; 
 
 function App() {
   return (
     <BrowserRouter>
-    <Navbar/>
-      <Routes>
-        <Route path="/" element={<ListVenues />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/venues" element={<ListVenues />} />
-        <Route path="/venues/:id" element={<ListVenuesDetail />} />
-      </Routes>
+      <AuthProvider>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<ListVenues />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/venues" element={<ListVenues />} />
+          <Route path="/venues/:id" element={<ListVenuesDetail />} />
+          <Route path="/admin" element={<Admin />} /> {/* Add the route for Admin component */}
+        </Routes>
+      </AuthProvider>
     </BrowserRouter>
   );
 }
 
-
 export default App;
-
-
