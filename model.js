@@ -1,6 +1,7 @@
 const { Pool } = require('pg');
 
 const stores = require('./stores.json');
+const bcrypt = require('bcrypt');
 
 class ModelClass {
   constructor() {
@@ -113,22 +114,42 @@ async deleteVenue(id) {
   }
 }
 
-async loginUser(username, password) {
+async createUser(username, password) {
   try {
-      const { rows } = await this.connection.query(`
-          SELECT * FROM users WHERE name = $1 AND password = $2
-      `, [username, password]);
-
-      if (rows.length > 0) {
-          return true; // User credentials are correct
-      } else {
-          return false; // User credentials are incorrect
-      }
+    // Hash the password using bcrypt
+    const hashedPassword = await bcrypt.hash(password, 10);
+    await this.connection.query(`INSERT INTO users(name, password) VALUES ($1, $2)`, [username, hashedPassword]);
   } catch (error) {
-      console.error('Error logging in:', error);
-      return false; // Return false in case of an error
+    console.error('Error registering user', error);
+    throw error; // Rethrow the error to handle it properly in the controller
   }
 }
+async loginUser(username, password) {
+  try {
+    const { rows } = await this.connection.query(`SELECT * FROM users WHERE name = $1`, [username]);
+
+    if (rows.length === 0) {
+      return { isLoggedIn: false, isAdmin: false };
+    }
+
+    // Check if any user's password matches the provided password
+    for (const user of rows) {
+      const match = await bcrypt.compare(password, user.password);
+      if (match) {
+        // Passwords match, user is logged in
+        const isAdmin = user.name === 'admin';
+        return { isLoggedIn: true, isAdmin };
+      }
+    }
+
+    // If the loop completes and no matching password is found, return { isLoggedIn: false, isAdmin: false }
+    return { isLoggedIn: false, isAdmin: false };
+  } catch (error) {
+    console.error('Error logging in:', error);
+    return { isLoggedIn: false, isAdmin: false };
+  }
+}
+
 
   async getStores() {
     const { rows } = await this.connection.query(`

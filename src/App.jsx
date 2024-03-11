@@ -5,6 +5,7 @@ import ListVenuesDetail from './listVenueDetails';
 import Login from './Login';
 import Navbar from './header';
 import Admin from './admin'; // Import the Admin component
+import Register from './register'; // Import the Register component
 import { AuthProvider } from './AuthContext'; 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/venues" element={<ListVenues />} />
           <Route path="/venues/:id" element={<ListVenuesDetail />} />
           <Route path="/admin" element={<Admin />} /> {/* Add the route for Admin component */}
+          <Route path="/register" element={<Register />} /> {/* Add the route for Register component */}
         </Routes>
       </AuthProvider>
     </BrowserRouter>

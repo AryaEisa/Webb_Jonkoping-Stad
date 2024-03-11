@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './Login.css';
-
+import { Link } from "react-router-dom";
 import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa6";
 import axios from 'axios';
@@ -89,6 +89,8 @@ const Login = () => {
                 </div>
                 <div className="login-center-options">
                   <button type="submit">Log In</button>
+    
+                  <Link to="/register">Don't have an account? Register here</Link>
                 </div>
               </form>
             )}

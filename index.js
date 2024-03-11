@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors'); // Import cors module
 const cookieParser = require('cookie-parser');
-
 const app = express();
 const port = 3000;
 
@@ -37,6 +36,8 @@ app.delete('/venues/:id', async (req, res) => {
     res.status(500).json({ message: 'Internal server error' });
   }
 });
+
+
 
 app.post('/venues', async (req, res) => {
   try {
@@ -79,11 +80,16 @@ app.get('/venues/:id', async (req, res) => {
 app.post('/login', async (req, res) => {
   try {
     const { username, password } = req.body;
-    const isLoggedIn = await Model.loginUser(username, password);
+    const { isLoggedIn, isAdmin } = await Model.loginUser(username, password);
 
     if (isLoggedIn) {
-      res.cookie('token', 'super-secret-cookie', { httpOnly: true });
-      res.send('Login successful');
+      if (isAdmin) {
+        res.cookie('token', 'super-secret-cookie', { httpOnly: true });
+        res.send('Admin login successful');
+      } else {
+        res.cookie('token', 'super-secret-cookie', { httpOnly: true });
+        res.send('Login successful');
+      }
     } else {
       res.status(401).send('Invalid username or password');
     }
@@ -93,6 +99,17 @@ app.post('/login', async (req, res) => {
   }
 });
 
+
+app.post('/register', async(req, res) => {
+  try{
+      const {username, password} = req.body;
+      await Model.createUser(username, password); 
+      res.status(200).send('Registration successful'); // Send a success response
+  } catch (error){
+      console.error('Error registering user', error);
+      res.status(500).send('Registration failed'); // Send a failure response
+  }
+});
 
 
 app.get('/check-user-status', (req, res) => {

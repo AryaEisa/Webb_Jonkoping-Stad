@@ -1,12 +1,5 @@
-
-import React, { useRef } from 'react';
-import { NavLink } from 'react-router-dom';
-import './header.css'; 
-import { FaBars, FaTimes } from 'react-icons/fa';
-import { useAuth } from './AuthContext';
-
 function Navbar() {
-  const { isLoggedIn } = useAuth();
+  const { isLoggedIn, isAdmin } = useAuth();
   const navRef = useRef();
 
   const toggleNav = () => {
@@ -20,15 +13,15 @@ function Navbar() {
           <NavLink to="/" className="logo"></NavLink>
         </div>
         <div className="nav-links" ref={navRef}>
-            
           <NavLink to="/" className="nav-link">Home</NavLink>
           <NavLink to="/venues" className="nav-link">Venues</NavLink>
-          {isLoggedIn ? (
+          {isLoggedIn && (
             <>
-                <NavLink to="/admin" className="nav-link">Admin</NavLink>
+              {isAdmin && <NavLink to="/admin" className="nav-link">Admin</NavLink>}
               <NavLink to="/login" className="nav-link">Logout</NavLink>
             </>
-          ) : (
+          )}
+          {!isLoggedIn && (
             <NavLink to="/login" className="nav-link">Login</NavLink>
           )}
         </div>
@@ -39,5 +32,3 @@ function Navbar() {
     </div>
   );
 }
-
-export default Navbar;
