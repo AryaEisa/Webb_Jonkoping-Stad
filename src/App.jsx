@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Routes, Route, BrowserRouter } from 'react-router-dom';
 import ListVenues from './listVenues';
 import ListVenuesDetail from './listVenueDetails';
 import Login from './Login';

@@ -9,22 +9,21 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #333;
-  padding: 0 20px;
+  padding: 20px; /* Increased padding for better spacing */
   color: white;
 }
 
 .logo {
-  
   font-weight: bold;
   color: white;
   text-decoration: none; /* Ensures the logo text is not underlined */
+  font-size: 1.5rem; /* Adjusted font size for better visibility */
 }
 
 .nav-links {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 20px;
 }
 
 .nav-link {
@@ -35,10 +34,9 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover,
+.nav-link.active {
   background-color: #007bff; /* Highlight color for hover and active state */
-  color: white;
-  text-decoration: none;
 }
 
 .menu-toggle {
@@ -52,21 +50,16 @@ body {
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Adjusted flex direction for mobile view */
+    align-items: flex-start; /* Align items to the start for better mobile layout */
+    padding: 20px;
+  }
+
   .nav-links {
     display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding-top: 60px;
-    transition: all 0.5s ease;
-    z-index: 10;
+    flex-direction: column; /* Adjusted flex direction for mobile view */
+    gap: 10px; /* Reduced gap for better spacing */
   }
 
   .nav-links.show {
@@ -75,50 +68,9 @@ body {
 
   .menu-toggle {
     display: block;
-    z-index: 11;
   }
 
   .nav-link {
     font-size: 1.2rem; /* Larger font size for better readability on mobile */
   }
-}
-
-/* Advanced styling for the menu toggle */
-.menu-toggle {
-  position: relative; /* Adjusted for the custom icon */
-  width: 30px; /* Width of the custom menu icon */
-  height: 21px; /* Height of the custom menu icon */
-}
-
-.menu-toggle span, .menu-toggle span::before, .menu-toggle span::after {
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  background-color: white;
-  transition: all 0.3s ease;
-}
-
-.menu-toggle span::before {
-  content: '';
-  top: -8px;
-}
-
-.menu-toggle span::after {
-  content: '';
-  top: 8px;
-}
-
-.menu-toggle.active span {
-  background-color: transparent;
-}
-
-.menu-toggle.active span::before {
-  transform: rotate(45deg);
-  top: 0;
-}
-
-.menu-toggle.active span::after {
-  transform: rotate(-45deg);
-  top: 0;
 }

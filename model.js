@@ -54,17 +54,19 @@ class ModelClass {
 
     // Insert default user
     const defaultUser = {
-        name: 'admin',
-        email: 'admin@example.com',
-        password: 'adminpassword'
-    };
+      name: 'admin',
+      email: 'admin@example.com',
+      password: 'adminpassword'
+  };
 
-    await this.connection.query(`
-        INSERT INTO users (name, email, password)
-        VALUES ($1, $2, $3)
-    `, [defaultUser.name, defaultUser.email, defaultUser.password]);
+  const hashedPassword = await bcrypt.hash(defaultUser.password, 10);
 
-    console.log('Default user inserted.');
+  await this.connection.query(`
+  INSERT INTO users (name, email, password)
+  VALUES ($1, $2, $3)
+`, [defaultUser.name, defaultUser.email, hashedPassword]);
+
+  console.log('Default user inserted.');
     
     for (const store of stores) {
       const { rows } = await this.connection.query(`

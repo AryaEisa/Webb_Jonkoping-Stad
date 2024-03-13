@@ -1,8 +1,8 @@
+// Login.jsx
 import React, { useState, useEffect } from "react";
 import './Login.css';
 import { Link } from "react-router-dom";
-import { FaEye } from "react-icons/fa6";
-import { FaEyeSlash } from "react-icons/fa6";
+import { FaEye, FaEyeSlash } from "react-icons/fa6";
 import axios from 'axios';
 import { useAuth } from './AuthContext'; 
 
@@ -10,12 +10,12 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [username, setUsername] = useState(""); 
   const [password, setPassword] = useState("");
-  const { isLoggedIn, setIsLoggedIn } = useAuth();
+  const { isLoggedIn, isAdmin, login, logout } = useAuth(); // Update here to get login, logout, and isAdmin functions
 
   useEffect(() => {
     const token = localStorage.getItem('token');
     if (token) {
-      setIsLoggedIn(true);
+      login(); // Update login status using login function
     }
   }, []); // Run only once on component mount
 
@@ -40,8 +40,10 @@ const Login = () => {
       console.log('Response received:', response);
   
       if (response.status === 200) {
+        console.log('Response data:', response.data); // Print the response data
         localStorage.setItem('token', response.data); // Assuming response.data contains the token
-        setIsLoggedIn(true);
+        const isAdmin = response.data.isAdmin; // Assuming the isAdmin property is present in the response data
+        login(isAdmin); // Update login status and isAdmin status using login function
         console.log('Login successful');
       } else {
         console.log('Login failed');
@@ -53,8 +55,11 @@ const Login = () => {
   
   const handleLogout = () => {
     localStorage.removeItem('token');
-    setIsLoggedIn(false);
+    logout(); // Call logout function provided by useAuth hook
   };
+
+  console.log('Login - isLoggedIn:', isLoggedIn);
+  console.log('Login - isAdmin:', isAdmin);
 
   return (
     <div className="login-main">  
