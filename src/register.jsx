@@ -4,7 +4,8 @@ import axios from 'axios';
 const Register = () => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
-    
+    const [message, setMessage] = useState(""); // State to manage the message
+
     const handleUsernameChange = (event) => {
         setUsername(event.target.value);
     };
@@ -26,20 +27,21 @@ const Register = () => {
         
             if (response.status === 200) {
                 console.log('Registration successful');
-                // Handle successful registration, e.g., redirect to login page
+                setMessage("Registered user!"); // Set the message to indicate successful registration
             } else {
                 console.log('Registration failed');
-                // Handle failed registration, e.g., display error message to user
+                setMessage("Registration failed. Please try again."); // Set the message to indicate failed registration
             }
         } catch (error) {
             console.error('Error registering:', error);
-            // Handle error, e.g., display error message to user
+            setMessage("An error occurred. Please try again later."); // Set the message to indicate error during registration
         }
     };
     
     return(
         <div>
             <h2>Register</h2>
+            {message && <p>{message}</p>} {/* Display the message if it exists */}
             <form onSubmit={handleSubmit}>
                 <input type="text" value={username} onChange={handleUsernameChange} placeholder="Username" />
                 <input type="password" value={password} onChange={handlePasswordChange} placeholder="Password" />

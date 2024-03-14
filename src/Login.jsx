@@ -10,14 +10,13 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [username, setUsername] = useState(""); 
   const [password, setPassword] = useState("");
-  const { isLoggedIn, isAdmin, login, logout } = useAuth(); // Update here to get login, logout, and isAdmin functions
-
+  const { isLoggedIn, isAdmin, login, logout } = useAuth(); 
   useEffect(() => {
     const token = sessionStorage.getItem('token');
     if (token) {
-      login(); // Update login status using login function
+      login();
     }
-  }, []); // Run only once on component mount
+  }, []); 
 
   const handleUsernameChange = (event) => {
     setUsername(event.target.value);
@@ -40,10 +39,11 @@ const Login = () => {
       console.log('Response received:', response);
   
       if (response.status === 200) {
-        console.log('Response data:', response.data); // Print the response data
-        const isAdmin = response.data.isAdmin; // Assuming the isAdmin property is present in the response data
-        console.log('isAdmin:', isAdmin); // Log the isAdmin property
-        login(isAdmin); // Update login status and isAdmin status using login function
+        console.log('Response data:', response.data);
+        const { isAdmin, username } = response.data; // Destructure the response data to extract isAdmin and username
+        console.log('isAdmin:', isAdmin);
+        console.log('Username:', username);
+        login(username, isAdmin); // Update login status and isAdmin status using login function with the username
         console.log('Login successful');
       } else {
         console.log('Login failed');
@@ -52,6 +52,8 @@ const Login = () => {
       console.error('Error logging in:', error);
     }
   };
+  
+  
   
   const handleLogout = () => {
     logout(); // Call logout function provided by useAuth hook

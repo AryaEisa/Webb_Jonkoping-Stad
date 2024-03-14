@@ -7,6 +7,7 @@ import Navbar from './header';
 import Admin from './admin';
 import Register from './register';
 import { AuthProvider } from './AuthContext'; 
+import Home from './home';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<ListVenues />} />
+          <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/venues" element={<ListVenues />} />
           <Route path="/venues/:id" element={<ListVenuesDetail />} />

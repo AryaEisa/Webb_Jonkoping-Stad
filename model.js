@@ -131,7 +131,7 @@ async loginUser(username, password) {
     const { rows } = await this.connection.query(`SELECT * FROM users WHERE name = $1`, [username]);
 
     if (rows.length === 0) {
-      return { isLoggedIn: false, isAdmin: false };
+      return { isLoggedIn: false, isAdmin: false, username: null }; // Include username as null if user is not found
     }
 
     // Check if any user's password matches the provided password
@@ -140,15 +140,15 @@ async loginUser(username, password) {
       if (match) {
         // Passwords match, user is logged in
         const isAdmin = user.name === 'admin';
-        return { isLoggedIn: true, isAdmin };
+        return { isLoggedIn: true, isAdmin, username }; // Include username in the response
       }
     }
 
-    // If the loop completes and no matching password is found, return { isLoggedIn: false, isAdmin: false }
-    return { isLoggedIn: false, isAdmin: false };
+    // If the loop completes and no matching password is found, return { isLoggedIn: false, isAdmin: false, username: null }
+    return { isLoggedIn: false, isAdmin: false, username: null };
   } catch (error) {
     console.error('Error logging in:', error);
-    return { isLoggedIn: false, isAdmin: false };
+    return { isLoggedIn: false, isAdmin: false, username: null };
   }
 }
 

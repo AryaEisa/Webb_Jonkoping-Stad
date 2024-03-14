@@ -1,19 +1,16 @@
 import React, { useRef } from 'react';
 import { NavLink } from 'react-router-dom';
-import './header.css'
+import './header.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { useAuth } from './AuthContext'; // Import the useAuth hook
+import { useAuth } from './AuthContext';
 
 function Navbar() {
-  const { isLoggedIn, isAdmin } = useAuth(); // Using the useAuth hook to access authentication state
+  const { isLoggedIn, isAdmin, user } = useAuth();
   const navRef = useRef();
 
   const toggleNav = () => {
     navRef.current.classList.toggle('show');
   };
-
-  console.log('Navbar - isLoggedIn:', isLoggedIn);
-  console.log('Navbar - isAdmin:', isAdmin);
 
   return (
     <div>
@@ -26,7 +23,9 @@ function Navbar() {
           <NavLink to="/venues" className="nav-link">Venues</NavLink>
           {isAdmin && isLoggedIn && <NavLink to="/admin" className="nav-link">Admin</NavLink>}
           {isLoggedIn ? (
-            <NavLink to="/login" className="nav-link">Logout</NavLink>
+            <>
+              <NavLink to="/login" className="nav-link">{user.name}</NavLink>
+            </>
           ) : (
             <NavLink to="/login" className="nav-link">Login</NavLink>
           )}

@@ -1,5 +1,5 @@
 const express = require('express');
-const cors = require('cors'); // Import cors module
+const cors = require('cors'); 
 const cookieParser = require('cookie-parser');
 const app = express();
 const port = 3000;
@@ -7,10 +7,10 @@ const port = 3000;
 const ModelClass = require('./model.js');
 const Model = new ModelClass();
 
-// Use cors middleware to enable CORS
+
 app.use(cors());
-app.use(express.json()); // Add this line to parse JSON bodies
-app.use(cookieParser()); // Middleware to parse cookies
+app.use(express.json()); 
+app.use(cookieParser()); 
 
 app.get('/', async (req, res) => {
   const stores = await Model.getStores();
@@ -22,7 +22,7 @@ app.get('/venues', async (req, res) => {
   res.json(stores);
 });
 app.get('/login', (req, res) => {
-  // You can render a login page or send some data here
+
   res.send('This is the login page');
 });
 
@@ -79,16 +79,16 @@ app.get('/venues/:id', async (req, res) => {
 
 app.post('/login', async (req, res) => {
   try {
-    const { username, password } = req.body;
-    const { isLoggedIn, isAdmin } = await Model.loginUser(username, password);
+    const { username: reqUsername, password } = req.body; 
+    const { isLoggedIn, isAdmin, username } = await Model.loginUser(reqUsername, password);
 
     if (isLoggedIn) {
       if (isAdmin) {
         res.cookie('token', 'super-secret-cookie', { httpOnly: true });
-        res.status(200).json({ message: 'Admin login successful', isAdmin: true }); // Include isAdmin property in the response
+        res.status(200).json({ message: 'Admin login successful', isAdmin: true, username }); 
       } else {
         res.cookie('token', 'super-secret-cookie', { httpOnly: true });
-        res.status(200).json({ message: 'Login successful', isAdmin: false }); // Include isAdmin property in the response
+        res.status(200).json({ message: 'Login successful', isAdmin: false, username }); 
       }
     } else {
       res.status(401).send('Invalid username or password');
