@@ -85,10 +85,10 @@ app.post('/login', async (req, res) => {
     if (isLoggedIn) {
       if (isAdmin) {
         res.cookie('token', 'super-secret-cookie', { httpOnly: true });
-        res.send('Admin login successful');
+        res.status(200).json({ message: 'Admin login successful', isAdmin: true }); // Include isAdmin property in the response
       } else {
         res.cookie('token', 'super-secret-cookie', { httpOnly: true });
-        res.send('Login successful');
+        res.status(200).json({ message: 'Login successful', isAdmin: false }); // Include isAdmin property in the response
       }
     } else {
       res.status(401).send('Invalid username or password');

@@ -7,10 +7,10 @@ export const AuthProvider = ({ children }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isAdmin, setIsAdmin] = useState(false);
 
-  // Check for authentication status in local storage when component mounts
+  // Check for authentication status in session storage when component mounts
   useEffect(() => {
-    const isAuthenticated = localStorage.getItem('isLoggedIn');
-    const isAdmin = localStorage.getItem('isAdmin');
+    const isAuthenticated = sessionStorage.getItem('isLoggedIn');
+    const isAdmin = sessionStorage.getItem('isAdmin');
     if (isAuthenticated === 'true') {
       setIsLoggedIn(true);
       setIsAdmin(isAdmin === 'true');
@@ -20,15 +20,15 @@ export const AuthProvider = ({ children }) => {
   const login = (adminStatus = false) => {
     setIsLoggedIn(true);
     setIsAdmin(adminStatus);
-    localStorage.setItem('isLoggedIn', 'true');
-    localStorage.setItem('isAdmin', adminStatus ? 'true' : 'false');
+    sessionStorage.setItem('isLoggedIn', 'true');
+    sessionStorage.setItem('isAdmin', adminStatus ? 'true' : 'false');
   };
 
   const logout = () => {
     setIsLoggedIn(false);
     setIsAdmin(false);
-    localStorage.removeItem('isLoggedIn');
-    localStorage.removeItem('isAdmin');
+    sessionStorage.removeItem('isLoggedIn');
+    sessionStorage.removeItem('isAdmin');
   };
 
   return (

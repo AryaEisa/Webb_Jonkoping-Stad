@@ -13,7 +13,7 @@ const Login = () => {
   const { isLoggedIn, isAdmin, login, logout } = useAuth(); // Update here to get login, logout, and isAdmin functions
 
   useEffect(() => {
-    const token = localStorage.getItem('token');
+    const token = sessionStorage.getItem('token');
     if (token) {
       login(); // Update login status using login function
     }
@@ -41,8 +41,8 @@ const Login = () => {
   
       if (response.status === 200) {
         console.log('Response data:', response.data); // Print the response data
-        localStorage.setItem('token', response.data); // Assuming response.data contains the token
         const isAdmin = response.data.isAdmin; // Assuming the isAdmin property is present in the response data
+        console.log('isAdmin:', isAdmin); // Log the isAdmin property
         login(isAdmin); // Update login status and isAdmin status using login function
         console.log('Login successful');
       } else {
@@ -54,7 +54,6 @@ const Login = () => {
   };
   
   const handleLogout = () => {
-    localStorage.removeItem('token');
     logout(); // Call logout function provided by useAuth hook
   };
 
