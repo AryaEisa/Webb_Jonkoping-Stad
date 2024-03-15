@@ -7,7 +7,7 @@ class ModelClass {
   constructor() {
     this.connection = new Pool({
       user: 'postgres',
-      host: 'localhost',
+      host: '193.10.212.89',
       database: 'postgres',
       password: '12345',
       port: 5432,

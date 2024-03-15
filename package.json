@@ -4,6 +4,11 @@
   "version": "0.0.0",
   "type": "commonjs",
   "scripts": {
+    
+      "docker": "docker build -t webdep . && docker tag webdep http://193.10.212.89:5000/webdep && docker push http://193.10.212.89:5000/webdep",
+      "k8s-deploy": "kubectl apply -f kubernetes/namespace.yaml && kubectl apply -f kubernetes/deployment.yaml && kubectl apply -f kubernetes/service.yaml && kubectl rollout restart -n jkpgcity deployment webdep-deployment",
+      "k8s-run": "kubectl port-forward svc/webdep-service 3000:3000 -n jkpgcity"
+    ,
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
